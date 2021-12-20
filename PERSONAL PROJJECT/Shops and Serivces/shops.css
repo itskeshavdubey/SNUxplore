@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    background-color: #480607;
+  }
+  .SNU-logo {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .header-wrapper h2 {
+    box-sizing: border-box;
+    background-color:white;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    opacity: 0.9;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 115.9%;
+    padding: 8px;
+    letter-spacing: 1px;
+    color: #00203f;
+  }
+  .main-title {
+    margin: 11px;
+  }
+  .main-title h1 {
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    color: white;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+  }
+  .main-title p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    opacity: 0.68;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 10px;
+  }
+  
+  .info-container{
+    margin: 10px;
+  }
+  .container-single{
+    display:flex;
+    flex-direction: column;
+    row-gap: 15px;
+    top: 0;
+  }
+  .info1{
+    display:flex;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color:white;
+    opacity: .9;
+    justify-content:space-evenly;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #2a3439;
+    text-align: center;
+    justify-content:space-between;
+  }
+  .info1 p{
+      padding-bottom: 0px;
+  }
+  .info1 a{
+    text-decoration:none;
+    color: #2a3439;
+    box-sizing: border-box;
+    background-color:#480607;
+    opacity: .7;
+    color:white;
+    padding: 1px 5px;
+    border-radius: 5px; 
+    justify-content:space-between; 
+    opacity: .8;  
+    transition: .3s;
+  }
+  .info1:hover{
+    background-color: rgb(226, 136, 136);
+  }
