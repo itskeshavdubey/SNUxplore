@@ -1,19 +1,18 @@
-body
-{
-    animation: transitionIn 1s ;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+body {
+  animation: transitionIn 1s;
+  font-family: "Poppins", sans-serif;
 }
 
-@keyframes transitionIn 
-{
-    from
-    {
-        opacity: 0;
-        transform: rotateX(-10px);
-    }
-    
-    to
-    {
-        opacity: 1;
-        transform: rotateX(0px);
-    }
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0px);
+  }
 }
