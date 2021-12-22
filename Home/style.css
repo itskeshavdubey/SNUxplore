@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -15,16 +18,17 @@ body {
 .Navbar-Items {
   display: flex;
   font-size: 13px;
-  font-weight: semi-bold;
   color: white;
-  margin-top: 55px;
-  margin-left: 100px;
-  letter-spacing: 0.5px;
+  margin-top: 45px;
+  margin-left: 90px;
+  letter-spacing: 0.4px;
 }
 
 .Navbar-Items a {
-  color: white;
-  letter-spacing: 0.5px;
+  color: rgb(224, 223, 223);
+  font-size: 18px;
+  font-weight: 420;
+  letter-spacing: 0.6px;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -34,7 +38,7 @@ body {
 }
 
 .Team-icon {
-  padding-left: 10px;
+  padding-left: 40px;
 }
 
 .Main h1 {
