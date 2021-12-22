@@ -1,85 +1,147 @@
-* {
-    margin: 0px;
-    padding: 0px;
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  background-color: white;
+  font-family: 'Montserrat',sans-serif;
+}
+h3{
+  margin-top:10px;
+  margin-left: 20px;
+  color:#24584F;
+}
+h3 span{
+  color:#6ABD9F;
+}
+.Heading-para{
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.Heading-para h1{
+  font-size:48px;
+  color:Black;
+}
+.Heading-para p{
+  color:#24584F;
+  font-weight: 600;
+}
+.components{
+  display:flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.single-component{
+  box-sizing:border-box;
+  background-color: #D8F2E8;
+  margin-top: 10px;
+  margin-left: 70px;
+  width: 1283px;
+  height: 63px;
+  display:flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.topic-info{
+  color:#24584F;
+  font-weight:600;
+  padding-left: 15px;
+  padding-top: 17.9px;
+  font-size:20px;
+}
+.btns{
+  padding-right: 10px;
+  display:flex;
+}
+.btns a{
+  text-decoration:none;
+  color:black;
+  font-weight: normal;
+  box-sizing:border-box;
+  width: 138px;
+  height: 34px;
+  text-align: center;
+  background-color: white;
+  padding-top: 5px;
+  margin-top: 15px;
+  border-radius: 10px;
+  transition:.2s;
+}
+.btns a:hover{
+  background-color:#24584F;
+  color:white;
+}
+.btn-1{
+  margin-right: 60px;
+}
+.btn-3{
+  margin-left: 60px;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 768px){
+h3{
+  font-size:20px;
+  margin-right: 20px;
+}
+
+.Heading-para{
+  margin-left: 20px;
+}
+
+.components{
+  margin-left: -50px;
+  margin-right: 20px;
+  width: 100%;
+}
+
+.single-component{
+  box-sizing:border-box;
+  background-color: #D8F2E8;
+  margin-top: 10px;
+  width: 80%;
+  height: 60px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.btns{
+  position:relative;
+  padding-bottom: 50px;
+  padding-left: 15px;;
+}
+
+}
+@media only screen and (max-width: 500px){
+
+  .Heading-para h1{
+   text-align: center;
   }
-  body {
-    background-color: #121276;
-  }
-  .SNU-logo {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-  }
-  .header-wrapper h2 {
-    box-sizing: border-box;
-    background-color:#E0B0FF;
-    font-family: "Raleway", sans-serif;
-    display: flex;
-    opacity: 0.9;
-    text-align: center;
-    justify-content: center;
-    font-size: 14px;
-    margin-top: 20px;
-    line-height: 115.9%;
-    padding: 8px;
-    letter-spacing: 1px;
-    color: #00203f;
-  }
-  .main-title {
-    margin: 11px;
-  }
-  .main-title h1 {
-    display: flex;
-    justify-content: center;
-    padding-top: 12px;
-    color: White;
-    font-size: 40px;
-    font-family: "Raleway", sans-serif;
-  }
-  .main-title p {
-    display: flex;
-    justify-content: center;
-    color: white;
-    opacity: 0.68;
-    letter-spacing: 1px;
-    font-size: 15px;
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    padding-bottom: 10px;
+  .Heading-para p{
+      display:flex;
+      justify-content: center;
+      color:#24584F;
+      font-weight: 600;
+      text-align: center;
   }
   
-  .info-container{
-    margin: 10px;
+  .btn-3{
+      margin-left: 0px;
+      margin-right: 0px;
   }
-  .container-single{
-    display:flex;
-    flex-direction: column;
-    row-gap: 15px;
-    top: 0;
+  .components{
+      margin-left:-80px;
+      padding:0px 10px;
   }
-  .info1{
-    padding: 10px 0px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    background-color: #E0B0FF
-    ;
-    opacity: .9;
-    justify-content:space-evenly;
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    color: #2a3439;
-    text-align: center;
+  .single-component{
+      width:100%;
+      height:60px;
   }
-  .info1 p{
-      padding-bottom: 10px;
+  .topic-info{
+      text-align: center;
   }
-  .info1 a{
-    text-decoration:none;
-    color: #2a3439;
-    box-sizing: border-box;
-    background-color:white;
-    padding: 1px 5px;
-    border-radius: 5px; 
-    justify-content:space-between; 
-    opacity: .8;  
+  .btn-1{
+      margin-right: 0px;
   }
+}
