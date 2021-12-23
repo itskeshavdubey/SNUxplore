@@ -42,6 +42,9 @@ body {
   text-decoration: none;
   font-size: 18px;
 }
+hr{
+  margin-top: -25px;
+}
 .navbar{
   display: flex;
   justify-content: space-between;
