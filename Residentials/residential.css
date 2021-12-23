@@ -19,18 +19,18 @@
 }
 
 .dark-theme{
-  --logo-col:rgb(179, 254, 255);
-  --main-heading:rgb(179, 254, 255);
-  --base-color:white;
-  --background-color: rgb(83, 133, 147);
+  --logo-col:#90a1a4;
+  --main-heading: #90a1a4;
+  --base-color:#437e89;
+  --background-color: #131220;
   --hover:rgb(112, 152, 164);
-  --btn-bg: rgb(83, 133, 147);
+  --btn-bg: #203749;
   --btn-outline: #ffffff;
-  --btn-bg-hover:#7ebdb0;
-  --single-com:rgb(154, 194, 202);
+  --btn-bg-hover:#437e89;
+  --single-com:#1B2638;
   --btn-text-col:white;
-  --btn-text-hover:black;
-  --topic-info: rgb(50, 105, 128);
+  --btn-text-hover:white;
+  --topic-info:#6bb2bf;
 }
 
 body {
@@ -109,7 +109,7 @@ h3 span {
   padding-top: 3px;
   margin-top: 21px;
   border-radius: 10px;
-  border: 1.5px solid var(--btn-outline);
+  border: 1px solid var(--btn-outline);
   transition: 0.2s;
 }
 .btns a:hover {
