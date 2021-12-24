@@ -48,6 +48,16 @@ body {
   color: white;
 }
 
+.Main {
+  position: relative;
+  top: -65px;
+}
+
+.btns {
+  position: relative;
+  top: -55px;
+}
+
 .Main span {
   color: #6abd9f;
 }
