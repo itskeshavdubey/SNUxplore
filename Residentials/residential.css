@@ -16,6 +16,7 @@
   --btn-text-hover:white;
   --single-com:#D8F2E8;
   --topic-info: #24584f;
+  --search-col:#9acfc6;
 }
 
 .dark-theme{
@@ -31,6 +32,7 @@
   --btn-text-col:white;
   --btn-text-hover:white;
   --topic-info:#6bb2bf;
+  --search-col:#6d8caf;
 }
 
 body {
@@ -71,6 +73,55 @@ h3 span {
 .Heading-para p {
   color: var(--base-color);
   font-weight: 600;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.icon{
+  padding-top:3px;
+  transition:all .3s;
+}
+.icon:hover{
+  backface-visibility: hidden;
+        transform: scale(1.25, 1.25);
+        opacity: 1;
+}
+.searchTerm {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  border: 3px solid var(--search-col);
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  color: solid var(--base-color);
+}
+
+.searchTerm:focus{
+  color: var(--btn-bg-hover);
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid var(--search-col);
+  background: var(--search-col);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.wrap{
+  padding-top: 10px;
+  margin-right: 170px;
+  display: flex;
+  flex-direction:column;
+  margin-bottom:-10px;
 }
 .components {
   display: flex;
@@ -158,6 +209,17 @@ h3 span {
   }
 }
 @media only screen and (max-width: 500px) {
+  
+  .wrap{
+    padding-top: 20px;
+    margin-right: 35px;
+    margin-left:20px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-bottom:-5px;
+  }
+
   .single-component {
     height: 230px;
   }
