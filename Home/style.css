@@ -46,6 +46,13 @@ body {
   margin-top: 130px;
   font-size: 60px;
   color: white;
+  will-change: transform;
+  transition: transform 650ms;
+}
+
+.Main h1:hover {
+  transition: transform 600ms;
+  transform: translateY(-16px);
 }
 
 .Main {
