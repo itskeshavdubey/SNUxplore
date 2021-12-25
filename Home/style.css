@@ -273,6 +273,10 @@ body {
   justify-content: space-evenly;
 }
 
+.pictures {
+  border-radius: 20px;
+}
+
 @media only screen and (max-width: 768px) {
   .Navbar-Items {
     font-size: 10px;
