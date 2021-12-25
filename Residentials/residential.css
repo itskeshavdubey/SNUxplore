@@ -131,7 +131,7 @@ h3 span {
   padding-top: 20px;
   margin-bottom: 80px;
 }
-.single-component {
+.singlecomponent {
   box-sizing: border-box;
   background-color: var(--single-com);
   margin-top: 10px;
@@ -142,7 +142,7 @@ h3 span {
   justify-content: space-between;
   border-radius: 18px;
 }
-.topic-info {
+.topicinfo {
   color: var(--topic-info);
   font-weight: 600;
   padding-left: 35px;
@@ -195,7 +195,7 @@ h3 span {
     margin-right: 20px;
   }
 
-  .single-component {
+  .singlecomponent {
     box-sizing: border-box;
     margin-top: 10px;
     width: 80%;
@@ -221,7 +221,7 @@ h3 span {
     margin-bottom: -5px;
   }
 
-  .single-component {
+  .singlecomponent {
     height: 230px;
   }
   .btns {
@@ -246,7 +246,7 @@ h3 span {
     margin-top: 10px;
     margin-right: 10px;
   }
-  .topic-info {
+  .topicinfo {
     text-align: center;
     padding: 10px 0px;
   }
