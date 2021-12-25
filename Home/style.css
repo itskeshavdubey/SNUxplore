@@ -203,6 +203,26 @@ body {
 
 .buttons-container-2 a:hover {
   color: #d8f2e8;
+  heading {
+    font-size: 200px;
+  }
+}
+
+.contributeWrapper {
+  color: white;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.contributeWrapper__heading {
+  padding-top: 34px;
+  font-weight: 600;
+  font-size: 38px;
+  text-align: center;
+}
+
+.contributeWrapper__desc {
+  padding: 50px 200px 50px 200px;
 }
 
 @media only screen and (max-width: 768px) {
