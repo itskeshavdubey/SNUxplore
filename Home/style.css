@@ -15,7 +15,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height:fit-content;
-  padding-bottom: 5vh;
 }
 .Navbar-Items {
   display: flex;
@@ -454,6 +453,9 @@ footer {
 }
 @media only screen and (max-width: 500px) {
 
+  .bg{
+    padding-bottom: 0vh;
+  }
   .Navbar-Items {
     font-size: 10px;
     display: flex;
