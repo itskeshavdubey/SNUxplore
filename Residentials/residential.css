@@ -89,7 +89,7 @@ h3 span {
   transform: scale(1.25, 1.25);
   opacity: 1;
 }
-.searchTerm {
+.searchItem {
   width: 100%;
   font-family: "Poppins", "sans-serif";
   font-size: 14px;
