@@ -5,58 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="poi.css">
-  <link rel="stylesheet" href="master.css">
+  <link rel="stylesheet" href="../master.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <title>Point of Intrests - SNUxplore</title>
+  <title>Residentials - SNUxplore</title>
 </head>
 <body>
-    <h3>SNU<span>xplore.</span></h3>
+    <div class=navbar>
+    <a href="../Home/index.html" class="home_logo">
+        <h3>SNU<span>xplore.</span></h3>
+    </a>
+    <img class="dark-mode-png" src="/SNUxplore/images/moon.png" width="24px" height="25px" id="icon" alt="">
+</div>
+    <br>
+    <hr />
     <div class="Heading-para">
-        <h1>Point of Intrests.</h1>
+        <h1>Point of Interest.</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore gjdf.</p>
+        <div class="wrap">
+            <div class="search">
+               <input type="text" id="myInput" class="searchTerm" placeholder="What are you looking for?" onkeyup="searchPlaces()">
+               <button  type="submit" class="searchButton">
+                <img class="icon" src="/SNUxplore/images/—Pngtree—search icon_4699282.png" width="30px" height="30px">
+                 <i class="fa fa-search"></i>
+              </button>
+            </div>
+         </div>
     </div>
-    <div class="components">
-        <div class="single-component">
-            <div class="topic-info">
-                <p>Dining Hall 1</p>
+    <div class="components" id="component">
+        <div class="singlecomponent">
+            <div class="topicinfo">
+                <p>Horse Stables</p>
             </div>
             <div class="btns">
-                <a href="#"class="btn-3">Location</a>
+                <a href="#" class="btn-1">Location</a>
             </div>
         </div>
-        <div class="single-component">
-            <div class="topic-info">
-                <p>Dining Hall 1</p>
+        <div class="singlecomponent">
+            <div class="topicinfo">
+                <p>Lorem</p>
             </div>
             <div class="btns">
-                <a href="#"class="btn-3">Location</a>
+                <a href="#" class="btn-1">Location</a>
+            </div>
+        </div> <div class="singlecomponent">
+            <div class="topicinfo">
+                <p>Lorem</p>
+            </div>
+            <div class="btns">
+                <a href="#" class="btn-1">Location</a>
+            </div>
+        </div> <div class="singlecomponent">
+            <div class="topicinfo">
+                <p>Lorem</p>
+            </div>
+            <div class="btns">
+                <a href="#" class="btn-1">Location</a>
+            </div>
+        </div> <div class="singlecomponent">
+            <div class="topicinfo">
+                <p>Lorem</p>
+            </div>
+            <div class="btns">
+                <a href="#" class="btn-1">Location</a>
             </div>
         </div>
-        <div class="single-component">
-            <div class="topic-info">
-                <p>Dining Hall 1</p>
-            </div>
-            <div class="btns">
-                <a href="#"class="btn-3">Location</a>
-            </div>
-        </div>
-        <div class="single-component">
-            <div class="topic-info">
-                <p>Dining Hall 1</p>
-            </div>
-            <div class="btns">
-                <a href="#"class="btn-3">Location</a>
-            </div>
-        </div>
-        <div class="single-component">
-            <div class="topic-info">
-                <p>Dining Hall 1</p>
-            </div>
-            <div class="btns">
-                <a href="#"class="btn-3">Location</a>
-            </div>
         </div>
     </div>
+
+<script>
+
+    const searchPlaces = () => {
+        let filter = document.getElementById('myInput').value.toUpperCase();
+        let components = document.getElementById('component');
+        let singlecomponent = components.getElementByTagName('singlecomponent');
+
+        for (var i=0; i<singlecomponent.length; i++){
+            let topicinfo = singlecomponent[i].getElementByTagName('topicinfo')[0];
+            let textValue = topicinfo.textContent || topicinfo.innerHTML;
+            if(textValue.toUpperCase().indexOf('filter') > -1){
+             singlecomponent[i].style.display = '';
+            }else{
+                singlecomponent[i].style.display = 'none';
+            }
+        }
+    }
+
+    var icon = document.getElementById("icon");
+    icon.onclick = function() {
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src = "/SNUxplore/images/sun.png";
+        }
+        else{
+            icon.src = "/SNUxplore/images/moon.png";
+        }
+        }
+
+</script>
+
 </body>
+<footer class="footer_logo"><img src="../images/Shiv-Nadar-University-Logo-WEB.png"></footer>
 </html>

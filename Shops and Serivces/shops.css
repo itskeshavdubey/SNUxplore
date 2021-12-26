@@ -1,94 +1,255 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --logo-col: #6abd9f;
+  --main-heading: black;
+  --base-color: #3e9486;
+  --background-color: white;
+  --hover: #24584f;
+  --btn-bg: white;
+  --btn-outline: #56c9b6;
+  --btn-bg-hover: #24584f;
+  --btn-text-col: black;
+  --btn-text-hover: white;
+  --single-com: #d8f2e8;
+  --topic-info: #24584f;
+  --search-col: #9acfc6;
+}
+
+.dark-theme {
+  --logo-col: #90a1a4;
+  --main-heading: #b8c3c5;
+  --base-color: #5aa4b1;
+  --background-color: #131220;
+  --hover: rgb(112, 152, 164);
+  --btn-bg: #314f65;
+  --btn-outline: #ffffff;
+  --btn-bg-hover: #437e89;
+  --single-com: #1b2638;
+  --btn-text-col: white;
+  --btn-text-hover: white;
+  --topic-info: #6bb2bf;
+  --search-col: #6d8caf;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+.home_logo {
+  text-decoration: none;
+  font-size: 18px;
+}
+hr {
+  margin-top: -25px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.dark-mode-png {
+  cursor: pointer;
+}
+
+h3 {
+  color: var(--base-color);
+}
+h3 span {
+  color: var(--logo-col);
+}
+.Heading-para {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.Heading-para h1 {
+  font-size: 48px;
+  color: var(--main-heading);
+}
+.Heading-para p {
+  color: var(--base-color);
+  font-weight: 600;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.icon {
+  padding-top: 3px;
+  transition: all 0.3s;
+}
+.icon:hover {
+  backface-visibility: hidden;
+  transform: scale(1.25, 1.25);
+  opacity: 1;
+}
+.searchTerm {
+  width: 100%;
+  font-family: "Poppins", "sans-serif";
+  font-size: 14px;
+  font-weight: 500;
+  border: 3px solid var(--search-col);
+  border-right: none;
+  padding: 8px 5px 8px 14px;
+  height: 20px;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  color: solid var(--base-color);
+}
+
+.searchTerm:focus {
+  color: var(--btn-bg-hover);
+}
+
+.searchButton {
+  width: 40px;
+  height: 42px;
+  border: 1px solid var(--search-col);
+  background: var(--search-col);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.wrap {
+  padding-top: 10px;
+  margin-right: 170px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -10px;
+}
+.components {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  margin-bottom: 80px;
+}
+.singlecomponent {
+  box-sizing: border-box;
+  background-color: var(--single-com);
+  margin-top: 10px;
+  margin-left: 70px;
+  width: 1283px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 18px;
+}
+.topicinfo {
+  color: var(--topic-info);
+  font-weight: 600;
+  padding-left: 35px;
+  padding-top: 21px;
+  font-size: 20px;
+}
+.btns {
+  padding-right: 32px;
+  display: flex;
+}
+.btns a {
+  text-decoration: none;
+  color: var(--btn-text-col);
+  font-weight: 400;
+  box-sizing: border-box;
+  width: 138px;
+  height: 34px;
+  text-align: center;
+  background-color: var(--btn-bg);
+  padding-top: 3px;
+  margin-top: 21px;
+  border-radius: 10px;
+  border: 1px solid var(--btn-outline);
+  transition: 0.2s;
+}
+.btns a:hover {
+  background-color: var(--btn-bg-hover);
+  color: var(--btn-text-hover);
+}
+.btn-3 {
+  margin-left: 60px;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 20px;
+    margin-right: 20px;
   }
-  body {
-    background-color: #480607;
+
+  .Heading-para {
+    margin-left: 20px;
   }
-  .SNU-logo {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+
+  .components {
+    margin-left: -50px;
+    margin-right: 20px;
   }
-  .header-wrapper h2 {
+
+  .singlecomponent {
     box-sizing: border-box;
-    background-color:white;
-    font-family: "Raleway", sans-serif;
+    margin-top: 10px;
+    width: 80%;
+    height: 114px;
     display: flex;
-    opacity: 0.9;
-    text-align: center;
-    justify-content: center;
-    font-size: 14px;
-    margin-top: 20px;
-    line-height: 115.9%;
-    padding: 8px;
-    letter-spacing: 1px;
-    color: #00203f;
-  }
-  .main-title {
-    margin: 11px;
-  }
-  .main-title h1 {
-    display: flex;
-    justify-content: center;
-    padding: 14px;
-    color: white;
-    font-size: 30px;
-    font-family: "Raleway", sans-serif;
-  }
-  .main-title p {
-    display: flex;
-    justify-content: center;
-    color: white;
-    opacity: 0.68;
-    letter-spacing: 1px;
-    font-size: 15px;
-    text-align: center;
-    padding-bottom: 5px;
-    font-family: "Raleway", sans-serif;
-    padding-bottom: 10px;
-  }
-  
-  .info-container{
-    margin: 10px;
-  }
-  .container-single{
-    display:flex;
     flex-direction: column;
-    row-gap: 15px;
-    top: 0;
+    justify-content: space-between;
+    border-radius: 20px;
   }
-  .info1{
-    display:flex;
-    padding: 10px 10px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    background-color:white;
-    opacity: .9;
-    justify-content:space-evenly;
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    font-size: 10px;
-    color: #2a3439;
+  .btns {
+    padding-bottom: 50px;
+    padding-left: 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+
+  .Heading-para h1 {
+    font-size: 38px;
+  }
+
+  .wrap {
+    padding-top: 20px;
+    margin-right: 35px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -5px;
+  }
+
+  .singlecomponent {
+    height: 120px;
+  }
+  .btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    padding-bottom: 130px;
+  }
+
+  .btn-1 {
+    margin: 0px;
+  }
+  .btn-2 {
+    margin: 0px;
+  }
+  .btn-3 {
+    margin: 0px;
+  }
+  .Heading-para {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .topicinfo {
     text-align: center;
-    justify-content:space-between;
+    padding: 10px 0px;
   }
-  .info1 p{
-      padding-bottom: 0px;
-  }
-  .info1 a{
-    text-decoration:none;
-    color: #2a3439;
-    box-sizing: border-box;
-    background-color:#480607;
-    opacity: .7;
-    color:white;
-    padding: 1px 5px;
-    border-radius: 5px; 
-    justify-content:space-between; 
-    opacity: .8;  
-    transition: .3s;
-  }
-  .info1:hover{
-    background-color: rgb(226, 136, 136);
-  }
+}

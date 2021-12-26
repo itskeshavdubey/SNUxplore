@@ -1,66 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shops.css">
+  <link rel="stylesheet" href="../master.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" type="text/css" href="shops.css">
-  <title>SNUxplore-Shops and Services</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Essentials - SNUxplore</title>
 </head>
 <body>
-  <div class="bg-img"> </div>
-  <div class="SNU-logo">
-    <img src="/images/Shiv-Nadar-University-Logo-WEB.png" style="width: 140px;height:40px" alt="">
-  </div>
-  <div class="header-wrapper">
-    <h2>Shops and Services</h2>
-  </div>
-  <div class="main-title">
-    <h1>Shops & Services</h1>
-    <p></p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit quam omnis sint ipsum, sapiente non voluptatum saepe neque deleniti laudantium ea libero consectetur vitae placeat quis animi esse perspiciatis blanditiis.</p>
-  </div>
- <div class="info-container">
-   <div class="container-single">
-     <div class="info1">
-       <p>India Post Courier Service</p>
-       <a type="button" class="food-Location" href="#"><span class="button__text">Location</span></a>
-     </div>
-     <div class="info1">
-      <p>Printing Shop (D Block)</p>
-       <a type="button" class="food-Location" href="#"><span class="button__text">Location</span></a>
-     </div>
-     <div class="info1">
-      <p>Mini Mart</p>
-       <a type="button" class="food-Location" href="#"><span class="button__text">Location</span></a>
-     </div>
-     <div class="info1">
-        <p>HDFC Bank</p>
-         <a type="button" class="food-Location" href="#"><span class="button__text">Location</span></a>
-       </div>
-       <div class="info1">
-        <p>Departmental Store - 1 (Shopping Arcade)</p>
-         <a type="button" class="food-Location" href="#"><span class="button__text">Location</span></a>
-       </div>
-       <div class="info1">
-        <p>Departmental Store - 2 (Towers)</p>
-         <a type="button" class="food-Location" href="#"><span class="button__text">Location</span></a>
-       </div>
-      <div class="info1">
-       <p>Adidas (Shopping Arcade)</p>
-        <a type="button" class="food-Location" href="#"><span class="button__text">Location</span></a>
-      </div>
-      <div class="info1">
-        <p>Cycle Repair Shop (Shopping Arcade)</p>
-         <a type="button" class="food-Location" href="#"><span class="button__text">Location</span></a>
-       </div>
-       <div class="info1">
-        <p>Books and Printing (Shopping Arcade)</p>
-         <a type="button" class="food-Location" href="#"><span class="button__text">Location</span></a>
-       </div>
-     </div> 
-    </div>  
- </div>
+    <div class=navbar>
+    <a href="../Home/index.html" class="home_logo">
+        <h3>SNU<span>xplore.</span></h3>
+    </a>
+    <img class="dark-mode-png" src="/SNUxplore/images/moon.png" width="24px" height="25px" id="icon" alt="">
+</div>
+    <br>
+    <hr />
+    <div class="Heading-para">
+        <h1>Essentials.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore gjdf.</p>
+        <div class="wrap">
+            <div class="search">
+               <input type="text" id="myInput" class="searchTerm" placeholder="What are you looking for?" onkeyup="searchPlaces()">
+               <button  type="submit" class="searchButton">
+                <img class="icon" src="/SNUxplore/images/—Pngtree—search icon_4699282.png" width="30px" height="30px">
+                 <i class="fa fa-search"></i>
+              </button>
+            </div>
+         </div>
+    </div>
+    <div class="components" id="component">
+        <div class="singlecomponent">
+            <div class="topicinfo">
+                <p>Mini Mart</p>
+            </div>
+            <div class="btns">
+                <a href="#"class="btn-3">Location</a>
+            </div>
+        </div>
+        <div class="singlecomponent">
+            <div class="topicinfo">
+                <p>Lorem</p>
+            </div>
+            <div class="btns">
+                <a href="#"class="btn-3">Location</a>
+            </div>
+        </div> <div class="singlecomponent">
+            <div class="topicinfo">
+                <p>Lorem</p>
+            </div>
+            <div class="btns">
+                <a href="#"class="btn-3">Location</a>
+            </div>
+        </div> <div class="singlecomponent">
+            <div class="topicinfo">
+                <p>Lorem</p>
+            </div>
+            <div class="btns">
+                <a href="#"class="btn-3">Location</a>
+            </div>
+        </div> <div class="singlecomponent">
+            <div class="topicinfo">
+                <p>Lorem</p>
+            </div>
+            <div class="btns">
+                <a href="#"class="btn-3">Location</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<script>
+
+    const searchPlaces = () => {
+        let filter = document.getElementById('myInput').value.toUpperCase();
+        let components = document.getElementById('component');
+        let singlecomponent = components.getElementByTagName('singlecomponent');
+
+        for (var i=0; i<singlecomponent.length; i++){
+            let topicinfo = singlecomponent[i].getElementByTagName('topicinfo')[0];
+            let textValue = topicinfo.textContent || topicinfo.innerHTML;
+            if(textValue.toUpperCase().indexOf('filter') > -1){
+             singlecomponent[i].style.display = '';
+            }else{
+                singlecomponent[i].style.display = 'none';
+            }
+        }
+    }
+
+    var icon = document.getElementById("icon");
+    icon.onclick = function() {
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src = "/SNUxplore/images/sun.png";
+        }
+        else{
+            icon.src = "/SNUxplore/images/moon.png";
+        }
+        }
+
+</script>
+
+</body>
+<footer class="footer_logo"><img src="../images/Shiv-Nadar-University-Logo-WEB.png"></footer>
 </html>
