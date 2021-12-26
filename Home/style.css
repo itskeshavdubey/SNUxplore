@@ -289,18 +289,27 @@ body {
 
 .teamWrapper__cards__Keshav {
   box-sizing: border-box;
-  background-color: #d7e9e6;
-  padding: 30px;
+  background-color: #add5cc;
+  padding: 15px;
   border-radius: 20px;
   font-weight: 500;
+  color: rgb(61, 61, 61);
+  height: 354px;
+  text-align: center;
+}
+
+.teamWrapper__cards__Keshav a {
+  color: rgb(71, 71, 71);
   display: flex;
   flex-direction: column;
 }
-.teamWrapper__cards__Keshav {
-  text-align: center;
-}
-.teamWrapper__cards__Keshav a {
-  color: black;
+
+.picture-keshav {
+  width: 162px;
+  position: relative;
+  align-self: center;
+  top: -75px;
+  border-radius: 14px;
 }
 
 .teamWrapper__cards__Prabhav {
@@ -310,11 +319,10 @@ body {
   border-radius: 20px;
   font-weight: 500;
   color: rgb(61, 61, 61);
-  height: 350px;
-}
-.teamWrapper__cards__Prabhav {
+  height: 354px;
   text-align: center;
 }
+
 .teamWrapper__cards__Prabhav a {
   color: rgb(71, 71, 71);
   display: flex;
@@ -339,6 +347,8 @@ body {
 }
 .teamWrapper__cards__socials {
   padding-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 footer {
@@ -346,7 +356,9 @@ footer {
   background-color: #3c6c70;
   color: white;
   font-weight: 500;
-  padding-bottom: 10px;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 18px;
   word-spacing: 1.2px;
 }
 
