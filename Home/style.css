@@ -290,7 +290,7 @@ body {
 
 .teamWrapper__cards__Keshav {
   box-sizing: border-box;
-  background-color: #ffffff2c;
+  background-color: #d7e9e6;
   padding: 30px;
   border-radius: 20px;
   font-weight: 500;
@@ -306,22 +306,30 @@ body {
 
 .teamWrapper__cards__Prabhav {
   box-sizing: border-box;
-  background-color: #ffffff2c;
+  background-color: #add5cc;
   padding: 30px;
   border-radius: 20px;
   font-weight: 500;
+  color: rgb(71, 71, 71);
 }
 .teamWrapper__cards__Prabhav {
   text-align: center;
 }
 .teamWrapper__cards__Prabhav a {
-  color: black;
+  color: rgb(71, 71, 71);
   display: flex;
   flex-direction: column;
 }
+
+.picture-prabhav {
+  position: relative;
+  top: -75px;
+  border-radius: 14px;
+}
+
 footer {
   text-align: center;
-  background-color: #2a5f5b;
+  background-color: #3c6c70;
   color: white;
   font-weight: 500;
   padding-bottom: 10px;
