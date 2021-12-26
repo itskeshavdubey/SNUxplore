@@ -14,7 +14,7 @@ body {
   background-image: url(../images/HomePage_Bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height:fit-content;
+  height: fit-content;
   padding-bottom: 23vh;
 }
 .Navbar-Items {
@@ -208,13 +208,12 @@ body {
   color: #d8f2e8;
 }
 
-
 .contributeWrapper {
   box-sizing: border-box;
-  background-color: rgb(255, 255, 255);
+  background: linear-gradient(300deg, #3c6c70 25%, #d8f2e8 25%);
   padding: 20px;
   color: black;
-  height:max-content;
+  height: max-content;
   display: flex;
   padding-bottom: 25vh;
 }
@@ -256,7 +255,7 @@ body {
 
 .teamWrapper {
   box-sizing: border-box;
-  background-color:#4a807b;
+  background-color: #3c6c70;
   padding-bottom: 5vh;
   height: fit-content;
 }
@@ -307,10 +306,11 @@ body {
 .teamWrapper__cards__Prabhav {
   box-sizing: border-box;
   background-color: #add5cc;
-  padding: 30px;
+  padding: 15px;
   border-radius: 20px;
   font-weight: 500;
-  color: rgb(71, 71, 71);
+  color: rgb(61, 61, 61);
+  height: 350px;
 }
 .teamWrapper__cards__Prabhav {
   text-align: center;
@@ -321,10 +321,24 @@ body {
   flex-direction: column;
 }
 
+.details {
+  position: relative;
+  top: -56px;
+}
+
 .picture-prabhav {
+  width: 155px;
   position: relative;
   top: -75px;
   border-radius: 14px;
+}
+
+.teamWrapper__cards__name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.teamWrapper__cards__socials {
+  padding-top: 20px;
 }
 
 footer {
@@ -461,8 +475,7 @@ footer {
   }
 }
 @media only screen and (max-width: 500px) {
-
-  .bg{
+  .bg {
     padding-bottom: 0vh;
   }
   .Navbar-Items {
@@ -541,7 +554,7 @@ footer {
     margin-top: 20px;
     padding-bottom: 0vh;
   }
-  .contributeWrapper__image{
+  .contributeWrapper__image {
     margin-right: 0vh;
   }
   .contributeWrapper__heading {
