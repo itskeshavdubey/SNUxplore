@@ -8,11 +8,15 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+.bg {
   background-image: url(../images/HomePage_Bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  height:fit-content;
+  padding-bottom: 5vh;
 }
-
 .Navbar-Items {
   display: flex;
   font-size: 13px;
