@@ -214,7 +214,7 @@ body {
   /* margin-top: 40px; */
   padding: 20px;
   color: black;
-  height: 86vh;
+  height: 88vh;
   display: flex;
 }
 
@@ -255,7 +255,7 @@ body {
 
 .background-3 {
   background-color: #3c6c70;
-  height: 75vh;
+  height: 100vh;
 }
 
 .teamWrapper {
