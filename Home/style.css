@@ -211,7 +211,6 @@ body {
 }
 
 .contributeWrapper {
-  /* margin-top: 40px; */
   padding: 20px;
   color: black;
   height: 88vh;
@@ -219,7 +218,7 @@ body {
 }
 
 .contributeWrapper__heading {
-  padding-top: 34px;
+  padding-top: 46px;
   color: #24584f;
   font-weight: 600;
   font-size: 49px;
