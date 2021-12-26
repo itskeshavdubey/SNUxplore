@@ -15,6 +15,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height:fit-content;
+  padding-bottom: 23vh;
 }
 .Navbar-Items {
   display: flex;
