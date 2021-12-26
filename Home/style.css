@@ -10,11 +10,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.background-1{
+.background-1 {
   background-image: url(../images/HomePage_Bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height:100vh;
+  height: 100vh;
 }
 .Navbar-Items {
   display: flex;
@@ -58,11 +58,12 @@ body {
 
 .Main {
   position: relative;
-  top: -35px;
+  top: -59px;
 }
 
 .btns {
   position: relative;
+  top: -20px;
 }
 
 .Main span {
@@ -72,8 +73,8 @@ body {
 .Main p {
   margin-left: 100px;
   margin-top: 10px;
-  font-size: 21px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   color: white;
 }
 
@@ -87,9 +88,9 @@ body {
   margin-right: 30px;
   box-sizing: border-box;
   background-color: #d8f2e8;
-  width: 218px;
-  height: 59px;
-  padding-top: 13px;
+  width: 190px;
+  height: 51px;
+  padding-top: 10px;
   border-radius: 10px;
   text-align: center;
   transition: 0.3s;
@@ -102,9 +103,9 @@ body {
 .btn-2 {
   box-sizing: border-box;
   background-color: #d8f2e8;
-  width: 218px;
-  height: 59px;
-  padding-top: 13px;
+  width: 190px;
+  height: 51px;
+  padding-top: 10px;
   border-radius: 10px;
   text-align: center;
   transition: 0.3s;
@@ -118,9 +119,9 @@ body {
   margin-left: 30px;
   box-sizing: border-box;
   background-color: #d8f2e8;
-  width: 218px;
-  height: 59px;
-  padding-top: 13px;
+  width: 190px;
+  height: 51px;
+  padding-top: 10px;
   border-radius: 10px;
   text-align: center;
   transition: 0.3s;
@@ -151,9 +152,9 @@ body {
   margin-right: 30px;
   box-sizing: border-box;
   background-color: #d8f2e8;
-  width: 218px;
-  height: 59px;
-  padding-top: 13px;
+  width: 190px;
+  height: 51px;
+  padding-top: 10px;
   border-radius: 10px;
   text-align: center;
   transition: 0.3s;
@@ -166,9 +167,9 @@ body {
 .btn-5 {
   box-sizing: border-box;
   background-color: #d8f2e8;
-  width: 218px;
-  height: 59px;
-  padding-top: 13px;
+  width: 190px;
+  height: 51px;
+  padding-top: 10px;
   border-radius: 10px;
   text-align: center;
   transition: 0.3s;
@@ -182,9 +183,9 @@ body {
   margin-left: 30px;
   box-sizing: border-box;
   background-color: #d8f2e8;
-  width: 218px;
-  height: 59px;
-  padding-top: 13px;
+  width: 190px;
+  height: 51px;
+  padding-top: 10px;
   border-radius: 10px;
   text-align: center;
   transition: 0.3s;
@@ -205,14 +206,15 @@ body {
   color: #d8f2e8;
 }
 
-.background-2{
-  background-color:white;
-  margin-bottom: -43vh;
+.background-2 {
+  background: linear-gradient(300deg, #3c6c70 25%, #d8f2e8 25%);
 }
+
 .contributeWrapper {
+  /* margin-top: 40px; */
   padding: 20px;
   color: black;
-  height: 100vh;
+  height: 86vh;
   display: flex;
 }
 
@@ -242,7 +244,7 @@ body {
 .contributeWrapper__image {
   margin-top: 60px;
   margin-left: 60px;
-  margin-right:60px;
+  margin-right: 60px;
   will-change: transform;
   transition: transform 700ms;
 }
@@ -251,10 +253,9 @@ body {
   color: black;
 }
 
-.background-3{
-  background-color:#2a5f5b;
-  height:75vh;
-
+.background-3 {
+  background-color: #3c6c70;
+  height: 75vh;
 }
 
 .teamWrapper {
@@ -272,7 +273,7 @@ body {
   font-size: 49px;
   text-align: center;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   text-align: left;
 }
 
@@ -288,45 +289,43 @@ body {
   margin-right: 20%;
 }
 
-.teamWrapper__cards__Keshav{
+.teamWrapper__cards__Keshav {
   box-sizing: border-box;
   background-color: #ffffff2c;
-  padding:30px;
+  padding: 30px;
   border-radius: 20px;
   font-weight: 500;
   display: flex;
   flex-direction: column;
 }
-.teamWrapper__cards__Keshav{
+.teamWrapper__cards__Keshav {
   text-align: center;
 }
-.teamWrapper__cards__Keshav a{
+.teamWrapper__cards__Keshav a {
   color: black;
 }
 
-
-.teamWrapper__cards__Prabhav{
+.teamWrapper__cards__Prabhav {
   box-sizing: border-box;
   background-color: #ffffff2c;
-  padding:30px;
+  padding: 30px;
   border-radius: 20px;
   font-weight: 500;
 }
-.teamWrapper__cards__Prabhav{
+.teamWrapper__cards__Prabhav {
   text-align: center;
-  
 }
-.teamWrapper__cards__Prabhav a{
+.teamWrapper__cards__Prabhav a {
   color: black;
   display: flex;
   flex-direction: column;
 }
-footer{
+footer {
   text-align: center;
   background-color: #2a5f5b;
-  color:white;
+  color: white;
   font-weight: 500;
-padding-bottom: 10px;
+  padding-bottom: 10px;
   word-spacing: 1.2px;
 }
 
@@ -358,7 +357,7 @@ padding-bottom: 10px;
     padding-right: 100px;
   }
 
-  .background-2{
+  .background-2 {
     margin-bottom: -7vh;
   }
   .contributeWrapper {
@@ -371,32 +370,32 @@ padding-bottom: 10px;
     font-weight: 600;
     font-size: 38px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     padding-left: 0px;
     justify-content: space-evenly;
-    padding:0px 145px;
+    padding: 0px 145px;
   }
 
   .contributeWrapper__desc {
     text-align: center;
     padding: 0px 0px 0px 0px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     padding: 30px 0px;
   }
 
-  .contributeWrapper{
+  .contributeWrapper {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
   }
   .contributeWrapper__image {
     margin-top: 0px;
   }
-  
+
   .teamWrapper__heading u {
     color: #24584f;
   }
-  
+
   .teamWrapper__heading {
     padding-top: 34px;
     font-weight: 600;
@@ -404,25 +403,25 @@ padding-bottom: 10px;
     font-size: 49px;
     text-align: center;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     text-align: left;
   }
-  
+
   .teamWrapper__heading span {
     color: #d7e9e6;
   }
-  
+
   .teamWrapper__cards {
     display: flex;
     justify-content: space-between;
     margin-right: 0%;
-    margin-top:30px;
+    margin-top: 30px;
   }
-  
-  .teamWrapper__cards__Keshav{
+
+  .teamWrapper__cards__Keshav {
     box-sizing: border-box;
-    padding:30px;
-    margin:10px;
+    padding: 30px;
+    margin: 10px;
     border-radius: 20px;
     font-weight: 500;
     display: flex;
@@ -430,40 +429,36 @@ padding-bottom: 10px;
     align-items: center;
   }
 
-  .teamWrapper__cards__Keshav{
+  .teamWrapper__cards__Keshav {
     text-align: center;
   }
 
-  .teamWrapper__cards__Keshav a{
+  .teamWrapper__cards__Keshav a {
     color: black;
   }
-  
-  
-  .teamWrapper__cards__Prabhav{
+
+  .teamWrapper__cards__Prabhav {
     box-sizing: border-box;
-    padding:30px;
+    padding: 30px;
     border-radius: 20px;
     font-weight: 500;
-    margin:10px;
+    margin: 10px;
   }
-  .teamWrapper__cards__Prabhav{
+  .teamWrapper__cards__Prabhav {
     text-align: center;
-    
   }
-  .teamWrapper__cards__Prabhav a{
+  .teamWrapper__cards__Prabhav a {
     color: black;
     display: flex;
     flex-direction: column;
   }
-  footer{
+  footer {
     text-align: center;
   }
-
 }
 @media only screen and (max-width: 500px) {
-
-  .background-1{
-    height:125vh;
+  .background-1 {
+    height: 125vh;
   }
 
   .Navbar-Items {
@@ -535,17 +530,17 @@ padding-bottom: 10px;
     margin-left: 0px;
     margin-bottom: 40px;
   }
-.background-2{
-  height: 115vh;
-}
+  .background-2 {
+    height: 115vh;
+  }
   contributeWrapper {
     color: black;
     height: 100vh;
     margin-top: 20px;
   }
 
-  .background-3{
-    height:115vh;
+  .background-3 {
+    height: 115vh;
   }
   .contributeWrapper__heading {
     font-weight: 600;
@@ -556,7 +551,7 @@ padding-bottom: 10px;
     display: flex;
     flex-direction: column;
   }
-  .contributeWrapper__heading span{
+  .contributeWrapper__heading span {
     font-size: 28px;
   }
 
@@ -569,24 +564,22 @@ padding-bottom: 10px;
     flex-direction: column;
     justify-content: space-between;
     margin-right: 0%;
-    margin-top:30px;
+    margin-top: 30px;
   }
 }
 
-@media screen and (max-width: 383px)
-{
-  .background-1{
+@media screen and (max-width: 383px) {
+  .background-1 {
     height: 130vh;
   }
 }
 
-@media screen and (max-width: 367px)
-{
-  .background-2{
+@media screen and (max-width: 367px) {
+  .background-2 {
     height: 115vh;
   }
 
-  .background-3{
+  .background-3 {
     height: 125vh;
   }
   .teamWrapper__heading {
@@ -594,16 +587,15 @@ padding-bottom: 10px;
   }
 }
 
-@media screen and (max-width: 362px)
-{
-  .background-1{
-    height:135vh;
+@media screen and (max-width: 362px) {
+  .background-1 {
+    height: 135vh;
   }
-  .background-2{
+  .background-2 {
     height: 120vh;
   }
 
-  .background-3{
+  .background-3 {
     height: 115vh;
   }
   .teamWrapper__heading {
