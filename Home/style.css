@@ -12,11 +12,11 @@ body {
 
 .bg {
   background-image: url(../images/HomePage_Bg.png);
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   height: fit-content;
-  padding-bottom: 23vh;
-  clip-path:polygon(0 0%, 100% 0, 100% 60%, 70% 90%, 0% 80%);
+  padding-bottom: 5vh;
 }
 .Navbar-Items {
   display: flex;
@@ -211,12 +211,12 @@ body {
 
 .contributeWrapper {
   box-sizing: border-box;
-  background: #ffffff;
+  background: linear-gradient(344deg, #3e6e71 25%, #d8f2e8 25%);
   padding: 20px;
   color: black;
   height: max-content;
   display: flex;
-  padding-bottom: 25vh;
+  padding-bottom: 35vh;
 }
 
 .contributeWrapper__heading {
@@ -257,9 +257,7 @@ body {
 .teamWrapper {
   box-sizing: border-box;
   background-color: #3e6e71;
-  clip-path:polygon(0% 30%, 60% 0, 100% 50%, 100% 100%, 0% 100%);
   padding-bottom: 5vh;
-  height: fit-content;
 }
 
 .teamWrapper__heading u {
@@ -267,7 +265,7 @@ body {
 }
 
 .teamWrapper__heading {
-  padding-top: 130px;
+  padding-top: 26px;
   font-weight: 600;
   color: #6abd9f;
   font-size: 49px;
@@ -276,7 +274,6 @@ body {
   justify-content: center;
   text-align: center;
   margin-top: -120px;
-
 }
 
 .teamWrapper__heading span {
@@ -507,7 +504,7 @@ footer {
 @media only screen and (max-width: 500px) {
   .bg {
     padding-bottom: 0vh;
-      clip-path:polygon(0% 0%, 100% 0%, 100% 100%, 100% 200%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 200%, 0% 100%);
   }
   .Navbar-Items {
     font-size: 10px;
@@ -621,18 +618,17 @@ footer {
     text-align: center;
     margin: 0px 70px;
   }
-  
+
   .teamWrapper__cards__Keshav a {
     color: rgb(71, 71, 71);
     display: flex;
     flex-direction: column;
   }
-  
+
   .teamWrapper__cards__Prabhav {
     box-sizing: border-box;
     background-color: #add5cc;
     padding: 5px;
     margin: 90px 70px;
   }
-
 }
