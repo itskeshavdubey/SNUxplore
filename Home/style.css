@@ -211,7 +211,8 @@ body {
 
 .contributeWrapper {
   box-sizing: border-box;
-  background: linear-gradient(344deg, #3e6e71 25%, #d8f2e8 25%);
+  background:rgb(245, 245, 245);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 70% 90%, 0 100%);
   padding: 20px;
   color: black;
   height: max-content;
@@ -237,9 +238,15 @@ body {
 }
 
 .contributeWrapper__desc {
-  padding: 54px 20vh 0px 13vh;
-  font-size: 18px;
-  font-weight: 500;
+  box-sizing: border-box;
+  background-color:#add5cc88;
+  border-radius: 20px;
+  padding: 20px 20px;
+  margin-left: 8vh;
+  margin-right: 20vh;
+  margin-top: 5vh;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .contributeWrapper__image {
@@ -265,7 +272,7 @@ body {
 }
 
 .teamWrapper__heading {
-  padding-top: 26px;
+  padding-top: 100px;
   font-weight: 600;
   color: #6abd9f;
   font-size: 49px;
@@ -442,7 +449,8 @@ footer {
   }
 
   .teamWrapper__heading {
-    padding-top: 34px;
+    padding-top: 20vh;
+    padding-bottom: 5vh;
     font-weight: 600;
     color: #6abd9f;
     font-size: 49px;
@@ -577,6 +585,7 @@ footer {
   }
 
   .contributeWrapper {
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 100% 100%, 0 100%);
     color: black;
     height: fit-content;
     margin-top: 20px;
@@ -593,6 +602,18 @@ footer {
     padding: 0px 0px;
     display: flex;
     flex-direction: column;
+  }
+  .contributeWrapper__desc{
+    text-align: left;
+    box-sizing: border-box;
+  background-color:#add5cc88;
+  border-radius: 20px;
+  padding: 20px 20px;
+  margin-left: 0vh;
+  margin-right: 0vh;
+  margin-top: 5vh;
+  font-size: 20px;
+  font-weight: 600;
   }
   .contributeWrapper__heading span {
     font-size: 28px;
