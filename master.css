@@ -32,3 +32,8 @@ body {
     transform: rotateX(0px);
   }
 }
+
+.footer_logo {
+  display: flex;
+  justify-content: center;
+}

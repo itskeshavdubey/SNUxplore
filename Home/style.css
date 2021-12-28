@@ -211,8 +211,8 @@ body {
 
 .contributeWrapper {
   box-sizing: border-box;
-  background:rgb(245, 245, 245);
-  clip-path: polygon(0 0%, 100% 0, 100% 100%, 70% 90%, 0 100%);
+  background: rgb(245, 245, 245);
+  background: linear-gradient(344deg, #3e6e71 25%, #d8f2e8 25%);
   padding: 20px;
   color: rgb(34, 34, 34);
   height: max-content;
@@ -238,15 +238,10 @@ body {
 }
 
 .contributeWrapper__desc {
-  box-sizing: border-box;
-  background-color:#add5cc88;
-  border-radius: 20px;
-  padding: 20px 20px;
-  margin-left: 8vh;
-  margin-right: 20vh;
-  margin-top: 5vh;
-  font-size: 20px;
-  font-weight: 600;
+  color: rgb(24, 24, 24);
+  padding: 54px 20vh 0px 13vh;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .contributeWrapper__image {
@@ -258,7 +253,7 @@ body {
 }
 
 .contributeWrapper__desc a {
-  color: black;
+  color: rgb(24, 24, 24);
 }
 
 .teamWrapper {
@@ -603,17 +598,17 @@ footer {
     display: flex;
     flex-direction: column;
   }
-  .contributeWrapper__desc{
+  .contributeWrapper__desc {
     text-align: left;
     box-sizing: border-box;
-  background-color:#add5cc88;
-  border-radius: 20px;
-  padding: 20px 20px;
-  margin-left: 0vh;
-  margin-right: 0vh;
-  margin-top: 5vh;
-  font-size: 20px;
-  font-weight: 600;
+    background-color: #add5cc88;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin-left: 0vh;
+    margin-right: 0vh;
+    margin-top: 5vh;
+    font-size: 20px;
+    font-weight: 600;
   }
   .contributeWrapper__heading span {
     font-size: 28px;
