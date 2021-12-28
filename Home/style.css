@@ -78,7 +78,7 @@ body {
   margin-top: 10px;
   font-size: 18px;
   font-weight: 400;
-  color: white;
+  color: rgb(216, 216, 216);
 }
 
 .buttons-container-1 {
@@ -213,7 +213,7 @@ body {
   box-sizing: border-box;
   background: linear-gradient(344deg, #3e6e71 25%, #d8f2e8 25%);
   padding: 20px;
-  color: black;
+  color: rgb(34, 34, 34);
   height: max-content;
   display: flex;
   padding-bottom: 35vh;
