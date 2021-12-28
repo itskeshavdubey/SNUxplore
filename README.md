@@ -1,6 +1,6 @@
 # SNUxplore.
 
-![logo](../images/logo.png)
+![logo](../SNUxplore/images/logo.png)
 
 A website developed with HTML, CSS and JavaScript to help people explore and navigate through Shiv Nadar University's campus easily and more efficiently. We also offer a functionality to call/mail all the hostel wardens and all the official buildings on campus
 
