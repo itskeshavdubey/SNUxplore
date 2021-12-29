@@ -1,14 +1,17 @@
 # SNUxplore.
 
-![logo](/images/logo.png)
+![logo](/images/logo.png) 
 
-A website developed with HTML, CSS and JavaScript to help people explore and navigate through Shiv Nadar University's campus easily and more efficiently. We also offer a functionality to call/mail all the hostel wardens and all the official buildings on campus
+![Vercel](http://therealsujitk-vercel-badge.vercel.app/?app=therealsujitk-vercel-badge)
+
+
+A website developed with HTML, CSS and JavaScript to help people explore and navigate through Shiv Nadar University's campus easily and more efficiently. We also offer a functionality to call/mail all the hostel wardens and all the official buildings on campus.
 
 ## General Use Cases
 
-- Parents who come to visit their wards for short durations, often find it troublesome to navigate through the college
-- Local guardians or guests who come to the campus for visits or official work
-- ✨And last but not the least, all the students and faculty
+- Parents who come to visit their wards for short durations, find it troublesome to navigate through the college. They can use the website to find all the locations on campus according to their needs
+- Local guardians or guests who come to the campus for visits or official work can navigate to the building of their choice, hassle free
+- ✨And last but not the least, all the students and faculty who may require an official building's/hostel wareden's contact details, or at times even a navigation route when lost or in an emergency
 
 ## How to Run This Project Locally?
 
@@ -23,7 +26,7 @@ git clone https://github.com/keshavdubeysnu/SNUxplore.git
 ```
 
 This will clone the repo in that folder and you can now locally access the code
-To view the pages, just navigate to the "home" folder and double click on "index.html". This should open the project in your browser.
+To view the pages, just navigate to the "Home" folder and double click on "index.html". This should open the project in your browser.
 
 ## Future Plans
 
