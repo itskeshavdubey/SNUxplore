@@ -211,8 +211,7 @@ body {
 
 .contributeWrapper {
   box-sizing: border-box;
-  background: rgb(245, 245, 245);
-  background: linear-gradient(344deg, #3e6e71 25%, #d8f2e8 25%);
+  background: #d8f2e8;
   padding: 20px;
   color: rgb(34, 34, 34);
   height: max-content;
@@ -506,11 +505,11 @@ footer {
 }
 @media only screen and (max-width: 500px) {
   .bg {
-    padding-bottom: 0vh;
+    margin-bottom:-3vh;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 200%, 0% 100%);
   }
-  .Navbar-Items {
-    font-size: 10px;
+  .Navbar-Items a{
+    font-size: 14px;
     display: flex;
     justify-content: center;
     margin-left: 0px;
@@ -520,14 +519,14 @@ footer {
     justify-content: center;
     margin-top: 40px;
     margin-left: 0px;
-    font-size: 50px;
+    font-size: 40px;
   }
   .Main p {
     display: flex;
     justify-content: center;
     text-align: center;
     margin-left: 0px;
-    font-size: 18px;
+    font-size: 16px;
     padding: 0px 20px;
   }
 
@@ -548,6 +547,7 @@ footer {
     align-items: center;
     padding-right: 0px;
     margin-top: -14px;
+    margin-bottom: -15px;
   }
   .buttons-container-1 {
     display: flex;
@@ -607,7 +607,7 @@ footer {
     margin-left: 0vh;
     margin-right: 0vh;
     margin-top: 5vh;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
   }
   .contributeWrapper__heading span {
@@ -645,6 +645,13 @@ footer {
     box-sizing: border-box;
     background-color: #add5cc;
     padding: 5px;
-    margin: 90px 70px;
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right:70px;
+  }
+  footer {
+    padding-bottom:10px;
+    padding-top:10px;
+    font-size: 14px;
   }
 }
