@@ -213,6 +213,7 @@ body {
   box-sizing: border-box;
   background: #d8f2e8;
   padding: 20px;
+  background: linear-gradient(345deg, #3e6e71 25%, #d8f2e8 25%);
   color: rgb(34, 34, 34);
   height: max-content;
   display: flex;
@@ -266,7 +267,7 @@ body {
 }
 
 .teamWrapper__heading {
-  padding-top: 100px;
+  padding-top: 34px;
   font-weight: 600;
   color: #6abd9f;
   font-size: 49px;
@@ -505,10 +506,10 @@ footer {
 }
 @media only screen and (max-width: 500px) {
   .bg {
-    margin-bottom:-3vh;
+    margin-bottom: -3vh;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 200%, 0% 100%);
   }
-  .Navbar-Items a{
+  .Navbar-Items a {
     font-size: 14px;
     display: flex;
     justify-content: center;
@@ -647,11 +648,11 @@ footer {
     padding: 5px;
     margin-top: 100px;
     margin-left: 70px;
-    margin-right:70px;
+    margin-right: 70px;
   }
   footer {
-    padding-bottom:10px;
-    padding-top:10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-size: 14px;
   }
 }
