@@ -224,7 +224,7 @@ body {
   padding-top: 12vh;
   color: #24584f;
   font-weight: 600;
-  font-size: 49px;
+  font-size: 47px;
   padding-left: 90px;
   text-align: left;
 }
@@ -240,7 +240,7 @@ body {
 .contributeWrapper__desc {
   color: rgb(24, 24, 24);
   padding: 54px 20vh 0px 13vh;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -284,7 +284,7 @@ body {
 
 .teamWrapper__cards {
   display: flex;
-  margin-top: 100px;
+  margin-top: 120px;
   justify-content: center;
   justify-content: space-between;
   margin-right: 20%;
@@ -293,11 +293,11 @@ body {
 .teamWrapper__cards__Keshav {
   box-sizing: border-box;
   background-color: #add5cc;
-  padding: 15px;
+  padding: 0px 75px 0px 75px;
   border-radius: 20px;
   font-weight: 500;
   color: rgb(61, 61, 61);
-  height: 354px;
+  height: 335px;
   text-align: center;
 }
 
@@ -320,11 +320,11 @@ body {
 .teamWrapper__cards__Prabhav {
   box-sizing: border-box;
   background-color: #add5cc;
-  padding: 15px;
+  padding: 0px 75px 0px 75px;
   border-radius: 20px;
   font-weight: 500;
   color: rgb(61, 61, 61);
-  height: 354px;
+  height: 335px;
   text-align: center;
 }
 
@@ -340,7 +340,7 @@ body {
 }
 
 .picture-prabhav {
-  width: 155px;
+  width: 154px;
   position: relative;
   top: -75px;
   border-radius: 14px;
@@ -366,16 +366,18 @@ body {
   padding-top: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 footer {
-  background-color: #3c6c70;
+  background-color: #3e6e71;
   color: white;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 17px;
   padding-top: 30px;
   padding-bottom: 12px;
   word-spacing: 1.2px;
+  line-height: 2;
   text-align: center;
 }
 
@@ -409,6 +411,7 @@ footer {
 
   .contributeWrapper {
     color: black;
+    background: #add5cc;
     height: fit-content;
     margin-top: 20px;
   }
@@ -420,7 +423,7 @@ footer {
     justify-content: center;
     padding-left: 0px;
     justify-content: space-evenly;
-    padding: 0px 145px;
+    padding: 30px 145px;
   }
 
   .contributeWrapper__desc {
@@ -429,9 +432,11 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 30px 0px;
+    background-color: #d8f2e8 !important;
   }
 
   .contributeWrapper {
+    background: #add5cc;
     display: flex;
     flex-direction: column;
   }
@@ -444,10 +449,9 @@ footer {
   }
 
   .teamWrapper__heading {
-    padding-top: 20vh;
+    padding-top: 6vh;
     padding-bottom: 5vh;
     font-weight: 600;
-    color: #6abd9f;
     font-size: 49px;
     text-align: center;
     display: flex;
@@ -581,7 +585,7 @@ footer {
   }
 
   .contributeWrapper {
-    clip-path: polygon(0 0%, 100% 0, 100% 100%, 100% 100%, 0 100%);
+    background: #add5cc;
     color: black;
     height: fit-content;
     margin-top: 20px;
@@ -589,11 +593,15 @@ footer {
   }
   .contributeWrapper__image {
     margin-right: 0vh;
+    position: relative;
+    top: -60px;
+    padding: 20px;
   }
   .contributeWrapper__heading {
     font-weight: 600;
     font-size: 38px;
     padding-left: 0px;
+    padding-top: 24px !important;
     text-align: center;
     padding: 0px 0px;
     display: flex;
@@ -604,12 +612,12 @@ footer {
     box-sizing: border-box;
     background-color: #add5cc88;
     border-radius: 20px;
-    padding: 20px 20px;
+    padding: 20px 24px;
     margin-left: 0vh;
     margin-right: 0vh;
     margin-top: 5vh;
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
   }
   .contributeWrapper__heading span {
     font-size: 28px;
@@ -633,7 +641,7 @@ footer {
     color: rgb(61, 61, 61);
     height: 354px;
     text-align: center;
-    margin: 0px 70px;
+    margin: 0px 38px;
   }
 
   .teamWrapper__cards__Keshav a {
@@ -647,8 +655,8 @@ footer {
     background-color: #add5cc;
     padding: 5px;
     margin-top: 100px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 38px;
+    margin-right: 38px;
   }
   footer {
     padding-bottom: 10px;
