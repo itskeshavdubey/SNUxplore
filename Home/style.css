@@ -645,6 +645,7 @@ footer {
   }
 
   .teamWrapper__cards__Keshav a {
+    line-height: 1.8;
     color: rgb(71, 71, 71);
     display: flex;
     flex-direction: column;
@@ -657,6 +658,13 @@ footer {
     margin-top: 100px;
     margin-left: 38px;
     margin-right: 38px;
+  }
+
+  .teamWrapper__cards__Prabhav a {
+    line-height: 1.8;
+    color: rgb(71, 71, 71);
+    display: flex;
+    flex-direction: column;
   }
   footer {
     padding-bottom: 10px;
