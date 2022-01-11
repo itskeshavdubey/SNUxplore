@@ -11,6 +11,7 @@
   <title>Residentials - SNUxplore</title>
 </head>
 <body>
+    
     <div class=navbar>
     <a href="../Home/index.html" class="home_logo">
         <h3>SNU<span>xplore.</span></h3>
@@ -22,12 +23,14 @@
     <div class="Heading-para">
         <h1>Point of Interest.</h1>
         <p>Here you can access location of various POI's around campus.</p>
+        <input id="source" type="text" placeholder="What are you looking for?" onchange="search()" />
+        
         <div class="wrap">
             <div class="search">
                <input type="text" id="myInput" class="searchTerm" placeholder="What are you looking for?" onkeyup="searchPlaces()">
                <button  type="submit" class="searchButton">
                 <img class="icon" src="/SNUxplore/images/—Pngtree—search icon_4699282.png" width="30px" height="30px">
-                 <i class="fa fa-search"></i>
+                 <i class="fa fa-search"></i> 
               </button>
             </div>
          </div>
@@ -35,7 +38,7 @@
     <div class="components" id="component">
         <div class="singlecomponent">
             <div class="topicinfo">
-                <p>Horse Stables</p>
+                <p class="findable" >Horse Stables</p>
             </div>
             <div class="btns">
                 <a href="https://www.google.com/maps/place/Greater+Noida,+Uttar+Pradesh+203207/@28.518782,77.57357,17z/data=!3m1!4b1!4m12!1m6!3m5!1s0x390ceb4eaaaaaaab:0x321412756718874c!2sShiv+Nadar+University!8m2!3d28.5267298!4d77.575363!3m4!1s0x390c94d8756793eb:0xc605950461bcc5ed!8m2!3d28.5192457!4d77.574931" class="btn-1" target="_blank">Location</a>
@@ -43,21 +46,21 @@
         </div>
         <div class="singlecomponent">
             <div class="topicinfo">
-                <p>Dargah</p>
+                <p class="findable">Dargah</p>
             </div>
             <div class="btns">
                 <a href="https://www.google.com/maps/place/28%C2%B031'14.8%22N+77%C2%B034'22.8%22E/@28.5207852,77.5724398,19z/data=!3m1!4b1!4m6!3m5!1s0x0:0xc04f34ec3b287c1d!7e2!8m2!3d28.5207835!4d77.572987" class="btn-1" target="_blank">Location</a>
             </div>
         </div> <div class="singlecomponent">
             <div class="topicinfo">
-                <p>SNU Lake</p>
+                <p class="findable">SNU Lake</p>
             </div>
             <div class="btns">
                 <a href="https://www.google.com/maps/place/SNU+Lake/@28.5252438,77.5756142,17z/data=!3m1!4b1!4m5!3m4!1s0x390c94dbe0222a6f:0x96c4e051b8e0fe5d!8m2!3d28.5252391!4d77.5778029" class="btn-1" target="_blank">Location</a>
             </div>
         </div> <div class="singlecomponent">
             <div class="topicinfo">
-                <p>C&D</p>
+                <p class="findable">C&D</p>
             </div>
             <div class="btns">
                 <a href="https://www.google.com/maps/place/28%C2%B031'32.0%22N+77%C2%B034'33.5%22E/@28.5255898,77.5759435,20.12z/data=!4m6!3m5!1s0x0:0x5845f81796d75ab8!7e2!8m2!3d28.5255601!4d77.5759632" class="btn-1" target="_blank">Location</a>
@@ -66,6 +69,19 @@
     </div>
 
 <script>
+    const inputHandler = (e) => {
+      const findables = document.getElementsByClassName("findable");
+      for (let i = 0; i < findables.length; i++) {
+        if (findables[i].innerText.toLowerCase().includes(e.target.value.toLowerCase())) {
+          findables[i].parentElement.parentElement.style.display = "flex";
+        } else {
+          findables[i].parentElement.parentElement.style.display = "none";
+        }
+      }
+    };
+    const source = document.getElementById("source");
+
+    source.addEventListener("input", inputHandler);
 
     const searchPlaces = () => {
         let filter = document.getElementById('myInput').value.toUpperCase();
