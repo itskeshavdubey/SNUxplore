@@ -214,7 +214,6 @@ body {
   background: #d8f2e8;
   padding: 20px;
   background: linear-gradient(345deg, #3e6e71 25%, #d8f2e8 25%);
-  color: rgb(34, 34, 34);
   height: max-content;
   display: flex;
   padding-bottom: 35vh;
@@ -238,7 +237,7 @@ body {
 }
 
 .contributeWrapper__desc {
-  color: rgb(24, 24, 24);
+  color: rgb(59, 59, 59);
   padding: 54px 20vh 0px 13vh;
   font-size: 16px;
   font-weight: 500;
@@ -253,7 +252,8 @@ body {
 }
 
 .contributeWrapper__desc a {
-  color: rgb(24, 24, 24);
+  font-size: 16.7px;
+  color: rgb(77, 77, 77);
 }
 
 .teamWrapper {

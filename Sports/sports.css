@@ -179,27 +179,26 @@ h3 span {
 
 #source {
   background-color: var(--background-color);
-  background-image: url('../images/searchcon.png'); 
-  background-position: 100% 2px; 
+  background-image: url("../images/searchcon.png");
+  background-position: 100% 2px;
   background-repeat: no-repeat;
   background-size: contain;
   color: var(--btn-text-col);
   box-sizing: border-box;
-  width: 1283px;
-  padding: 18px;
-  border-radius: 10px;
-  border: 1px solid var(--btn-outline);
+  width: 84vw;
+  padding: 14px 18px;
+  border-radius: 14px;
+  border: 2.4px solid var(--btn-outline);
   margin-top: 21px;
-
+  font-family: "Poppins", "sans-serif";
 }
-#source::placeholder{
+#source::placeholder {
   font-size: 16px;
   font-weight: 500;
   font-family: "Poppins", "sans-serif";
-  
 }
 
-#source:focus{
+#source:focus {
   outline: none;
 }
 @media only screen and (max-width: 768px) {
@@ -233,7 +232,9 @@ h3 span {
   }
 }
 @media only screen and (max-width: 500px) {
-
+  .Heading-para h1 {
+    font-size: 40px;
+  }
   .Heading-para h1 {
     font-size: 38px;
   }
