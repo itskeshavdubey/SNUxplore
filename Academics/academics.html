@@ -32,6 +32,8 @@
         Here you can find the location of all academic blocks on campus. Contact
         details coming soon.
       </p>
+      <input id="source" type="text" placeholder="What are you looking for?" onchange="search()" />
+
       <div class="wrap">
         <div class="search">
           <input
@@ -56,7 +58,7 @@
     <div class="components" id="component">
       <div class="singlecomponent">
         <div class="topicinfo">
-          <p>A Block</p>
+          <p class="findable">A Block</p>
         </div>
         <div class="btns">
           <a
@@ -68,7 +70,7 @@
       </div>
       <div class="singlecomponent">
         <div class="topicinfo">
-          <p>B Block</p>
+          <p class="findable">B Block</p>
         </div>
         <div class="btns">
           <a
@@ -80,7 +82,7 @@
       </div>
       <div class="singlecomponent">
         <div class="topicinfo">
-          <p>C Block</p>
+          <p class="findable">C Block</p>
         </div>
         <div class="btns">
           <a
@@ -92,7 +94,7 @@
       </div>
       <div class="singlecomponent">
         <div class="topicinfo">
-          <p>D Block</p>
+          <p class="findable">D Block</p>
         </div>
         <div class="btns">
           <a
@@ -104,7 +106,7 @@
       </div>
       <div class="singlecomponent">
         <div class="topicinfo">
-          <p>Management Block</p>
+          <p class="findable">Management Block</p>
         </div>
         <div class="btns">
           <a
@@ -116,7 +118,7 @@
       </div>
       <div class="singlecomponent">
         <div class="topicinfo">
-          <p>Research Annexe</p>
+          <p class="findable">Research Annexe</p>
         </div>
         <div class="btns">
           <a
@@ -129,6 +131,20 @@
     </div>
 
     <script>
+
+    const inputHandler = (e) => {
+      const findables = document.getElementsByClassName("findable");
+      for (let i = 0; i < findables.length; i++) {
+        if (findables[i].innerText.toLowerCase().includes(e.target.value.toLowerCase())) {
+          findables[i].parentElement.parentElement.style.display = "flex";
+        } else {
+          findables[i].parentElement.parentElement.style.display = "none";
+        }
+      }
+    };
+    const source = document.getElementById("source");
+
+    source.addEventListener("input", inputHandler);
       const searchPlaces = () => {
         let filter = document.getElementById("myInput").value.toUpperCase();
         let components = document.getElementById("component");
