@@ -5,6 +5,7 @@
   padding: 0px;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -261,6 +262,7 @@ body {
   box-sizing: border-box;
   background-color: #3e6e71;
   padding-bottom: 5vh;
+  overflow-x: visible;
 }
 
 .teamWrapper__heading u {
@@ -277,6 +279,7 @@ body {
   justify-content: center;
   text-align: center;
   margin-top: -120px;
+  overflow-x: visible;
 }
 
 .teamWrapper__heading span {
@@ -289,6 +292,7 @@ body {
   justify-content: center;
   justify-content: space-between;
   margin-right: 20%;
+  overflow-x: visible;
 }
 
 .teamWrapper__cards__Keshav {
@@ -300,12 +304,15 @@ body {
   color: rgb(61, 61, 61);
   height: 335px;
   text-align: center;
+  overflow-x: visible;
 }
 
 .teamWrapper__cards__Keshav a {
   color: rgb(71, 71, 71);
   display: flex;
   flex-direction: column;
+  overflow-x: visible;
+  overflow-y:visible;
 }
 
 .picture-keshav {
@@ -316,6 +323,8 @@ body {
   border-radius: 14px;
   will-change: transform;
   transition: transform 650ms;
+  overflow-x: visible;
+  overflow-y:visible;
 }
 
 .teamWrapper__cards__Prabhav {
@@ -327,6 +336,8 @@ body {
   color: rgb(61, 61, 61);
   height: 335px;
   text-align: center;
+  overflow-x: visible;
+
 }
 
 .teamWrapper__cards__Prabhav a {
@@ -338,6 +349,8 @@ body {
 .details {
   position: relative;
   top: -56px;
+  overflow-x: visible;
+
 }
 
 .picture-prabhav {
