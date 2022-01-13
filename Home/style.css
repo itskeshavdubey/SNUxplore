@@ -9,7 +9,26 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #235751; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 255, 255); 
 }
 
 .bg {
@@ -36,6 +55,7 @@ body {
   letter-spacing: 0.6px;
   text-decoration: none;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .Navbar-Items a:hover {
