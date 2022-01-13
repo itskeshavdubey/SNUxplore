@@ -1,0 +1,708 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #235751; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 255, 255); 
+}
+
+.bg {
+  background-image: url(../images/HomePage_Bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+  padding-bottom: 5vh;
+}
+.Navbar-Items {
+  display: flex;
+  font-size: 13px;
+  color: white;
+  padding-top: 45px;
+  margin-left: 90px;
+  letter-spacing: 0.4px;
+}
+
+.Navbar-Items a {
+  color: rgb(224, 223, 223);
+  font-size: 18px;
+  font-weight: 420;
+  letter-spacing: 0.6px;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.Navbar-Items a:hover {
+  color: #6abd9f;
+}
+
+.Team-icon {
+  padding-left: 40px;
+}
+
+.Main h1 {
+  margin-left: 100px;
+  margin-top: 130px;
+  font-size: 60px;
+  color: white;
+  will-change: transform;
+  transition: transform 650ms;
+}
+
+.Main h1:hover {
+  transition: transform 600ms;
+  transform: translateY(-16px);
+}
+
+.Main {
+  position: relative;
+  top: -59px;
+}
+
+.btns {
+  position: relative;
+  top: -20px;
+  margin-bottom: 10vh;
+}
+
+.Main span {
+  color: #6abd9f;
+}
+
+.Main p {
+  margin-left: 100px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(216, 216, 216);
+}
+
+.buttons-container-1 {
+  display: flex;
+  padding-top: 10px;
+}
+
+.btn-1 {
+  margin-left: 100px;
+  margin-right: 30px;
+  box-sizing: border-box;
+  background-color: #d8f2e8;
+  width: 190px;
+  height: 51px;
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.btn-1:hover {
+  background-color: #24584f;
+}
+
+.btn-2 {
+  box-sizing: border-box;
+  background-color: #d8f2e8;
+  width: 190px;
+  height: 51px;
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.btn-2:hover {
+  background-color: #24584f;
+}
+
+.btn-3 {
+  margin-left: 30px;
+  box-sizing: border-box;
+  background-color: #d8f2e8;
+  width: 190px;
+  height: 51px;
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.btn-3:hover {
+  background-color: #24584f;
+}
+
+.buttons-container-1 a {
+  text-decoration: none;
+  color: #24584f;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.buttons-container-1 a:hover {
+  color: #d8f2e8;
+}
+
+.buttons-container-2 {
+  display: flex;
+  padding-top: 15px;
+}
+
+.btn-4 {
+  margin-left: 100px;
+  margin-right: 30px;
+  box-sizing: border-box;
+  background-color: #d8f2e8;
+  width: 190px;
+  height: 51px;
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.btn-4:hover {
+  background-color: #24584f;
+}
+
+.btn-5 {
+  box-sizing: border-box;
+  background-color: #d8f2e8;
+  width: 190px;
+  height: 51px;
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.btn-5:hover {
+  background-color: #24584f;
+}
+
+.btn-6 {
+  margin-left: 30px;
+  box-sizing: border-box;
+  background-color: #d8f2e8;
+  width: 190px;
+  height: 51px;
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.btn-6:hover {
+  background-color: #24584f;
+}
+
+.buttons-container-2 a {
+  text-decoration: none;
+  color: #24584f;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.buttons-container-2 a:hover {
+  color: #d8f2e8;
+}
+
+.contributeWrapper {
+  box-sizing: border-box;
+  background: #d8f2e8;
+  padding: 20px;
+  background: linear-gradient(345deg, #3e6e71 25%, #d8f2e8 25%);
+  height: max-content;
+  display: flex;
+  padding-bottom: 35vh;
+}
+
+.contributeWrapper__heading {
+  padding-top: 12vh;
+  color: #24584f;
+  font-weight: 600;
+  font-size: 47px;
+  padding-left: 90px;
+  text-align: left;
+}
+
+.contributeWrapper__image:hover {
+  transition: transform 600ms;
+  transform: translateY(-24px);
+}
+.contributeWrapper__heading span {
+  color: #6abd9f;
+}
+
+.contributeWrapper__desc {
+  color: rgb(59, 59, 59);
+  padding: 54px 20vh 0px 13vh;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contributeWrapper__image {
+  margin-top: 17vh;
+  margin-left: 0px;
+  margin-right: 20vh;
+  will-change: transform;
+  transition: transform 700ms;
+}
+
+.contributeWrapper__desc a {
+  font-size: 16.7px;
+  color: rgb(77, 77, 77);
+}
+
+.teamWrapper {
+  box-sizing: border-box;
+  background-color: #3e6e71;
+  padding-bottom: 5vh;
+  overflow-x: visible;
+}
+
+.teamWrapper__heading u {
+  color: #24584f;
+}
+
+.teamWrapper__heading {
+  padding-top: 34px;
+  font-weight: 600;
+  color: #6abd9f;
+  font-size: 49px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: -120px;
+  overflow-x: visible;
+}
+
+.teamWrapper__heading span {
+  color: #d7e9e6;
+}
+
+.teamWrapper__cards {
+  display: flex;
+  margin-top: 120px;
+  justify-content: center;
+  justify-content: space-between;
+  margin-right: 20%;
+  overflow-x: visible;
+}
+
+.teamWrapper__cards__Keshav {
+  box-sizing: border-box;
+  background-color: #add5cc;
+  padding: 0px 75px 0px 75px;
+  border-radius: 20px;
+  font-weight: 500;
+  color: rgb(61, 61, 61);
+  height: 335px;
+  text-align: center;
+  overflow-x: visible;
+}
+
+.teamWrapper__cards__Keshav a {
+  color: rgb(71, 71, 71);
+  display: flex;
+  flex-direction: column;
+  overflow-x: visible;
+  overflow-y:visible;
+}
+
+.picture-keshav {
+  width: 162px;
+  position: relative;
+  align-self: center;
+  top: -75px;
+  border-radius: 14px;
+  will-change: transform;
+  transition: transform 650ms;
+  overflow-x: visible;
+  overflow-y:visible;
+}
+
+.teamWrapper__cards__Prabhav {
+  box-sizing: border-box;
+  background-color: #add5cc;
+  padding: 0px 75px 0px 75px;
+  border-radius: 20px;
+  font-weight: 500;
+  color: rgb(61, 61, 61);
+  height: 335px;
+  text-align: center;
+  overflow-x: visible;
+
+}
+
+.teamWrapper__cards__Prabhav a {
+  color: rgb(71, 71, 71);
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  position: relative;
+  top: -56px;
+  overflow-x: visible;
+
+}
+
+.picture-prabhav {
+  width: 154px;
+  position: relative;
+  top: -75px;
+  border-radius: 14px;
+  will-change: transform;
+  transition: transform 650ms;
+}
+
+.picture-prabhav:hover {
+  transition: transform 600ms;
+  transform: translateY(-16px);
+}
+
+.picture-keshav:hover {
+  transition: transform 600ms;
+  transform: translateY(-16px);
+}
+
+.teamWrapper__cards__name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.teamWrapper__cards__socials {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #3e6e71;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  padding-top: 30px;
+  padding-bottom: 12px;
+  word-spacing: 1.2px;
+  line-height: 2;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar-Items {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    margin-bottom: 100px;
+  }
+  .Main h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  .Main p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15px;
+    padding-right: 100px;
+  }
+
+  .contributeWrapper {
+    color: black;
+    background: #add5cc;
+    height: fit-content;
+    margin-top: 20px;
+  }
+
+  .contributeWrapper__heading {
+    font-weight: 600;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    justify-content: space-evenly;
+    padding: 30px 145px;
+  }
+
+  .contributeWrapper__desc {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+    background-color: #d8f2e8 !important;
+  }
+
+  .contributeWrapper {
+    background: #add5cc;
+    display: flex;
+    flex-direction: column;
+  }
+  .contributeWrapper__image {
+    margin-top: 0px;
+  }
+
+  .teamWrapper__heading u {
+    color: #24584f;
+  }
+
+  .teamWrapper__heading {
+    padding-top: 6vh;
+    padding-bottom: 5vh;
+    font-weight: 600;
+    font-size: 49px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .teamWrapper__heading span {
+    color: #d7e9e6;
+  }
+
+  .teamWrapper__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0%;
+    margin-top: 30px;
+  }
+
+  .teamWrapper__cards__Keshav {
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teamWrapper__cards__Keshav {
+    text-align: center;
+  }
+
+  .teamWrapper__cards__Keshav a {
+    color: black;
+  }
+
+  .teamWrapper__cards__Prabhav {
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin: 10px;
+  }
+  .teamWrapper__cards__Prabhav {
+    text-align: center;
+  }
+  .teamWrapper__cards__Prabhav a {
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .bg {
+    margin-bottom: -3vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 200%, 0% 100%);
+  }
+  .Navbar-Items a {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .Main h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 0px;
+    font-size: 40px;
+  }
+  .Main p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 16px;
+    padding: 0px 20px;
+  }
+
+  .btn-1 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .btn-2 {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .btn-3 {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .btns {
+    align-items: center;
+    padding-right: 0px;
+    margin-top: -14px;
+    margin-bottom: -15px;
+  }
+  .buttons-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding-bottom: 0px;
+    margin-bottom: -15px;
+  }
+  .buttons-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  }
+  .btn-4 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .btn-5 {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .btn-6 {
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+
+  .contributeWrapper {
+    background: #add5cc;
+    color: black;
+    height: fit-content;
+    margin-top: 20px;
+    padding-bottom: 0vh;
+  }
+  .contributeWrapper__image {
+    margin-right: 0vh;
+    position: relative;
+    top: -60px;
+    padding: 20px;
+  }
+  .contributeWrapper__heading {
+    font-weight: 600;
+    font-size: 38px;
+    padding-left: 0px;
+    padding-top: 24px !important;
+    text-align: center;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .contributeWrapper__desc {
+    text-align: left;
+    box-sizing: border-box;
+    background-color: #add5cc88;
+    border-radius: 20px;
+    padding: 20px 24px;
+    margin-left: 0vh;
+    margin-right: 0vh;
+    margin-top: 5vh;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .contributeWrapper__heading span {
+    font-size: 28px;
+  }
+
+  .teamWrapper__heading {
+    font-size: 28px;
+  }
+
+  .teamWrapper__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 0%;
+    margin-top: 90px;
+  }
+  .teamWrapper__cards__Keshav {
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+    height: 354px;
+    text-align: center;
+    margin: 0px 38px;
+  }
+
+  .teamWrapper__cards__Keshav a {
+    line-height: 1.8;
+    color: rgb(71, 71, 71);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .teamWrapper__cards__Prabhav {
+    box-sizing: border-box;
+    background-color: #add5cc;
+    padding: 5px;
+    margin-top: 100px;
+    margin-left: 38px;
+    margin-right: 38px;
+  }
+
+  .teamWrapper__cards__Prabhav a {
+    line-height: 1.8;
+    color: rgb(71, 71, 71);
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+}
