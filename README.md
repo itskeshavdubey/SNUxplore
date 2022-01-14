@@ -1,9 +1,8 @@
 # SNUxplore.
 
-![logo](/images/logo.png) 
+![logo](/images/logo.png)
 
 ![Vercel](http://therealsujitk-vercel-badge.vercel.app/?app=therealsujitk-vercel-badge)
-
 
 A website developed with HTML, CSS and JavaScript to help people explore and navigate through Shiv Nadar University's campus easily and more efficiently. We also offer a functionality to call/mail all the hostel wardens and all the official buildings on campus.
 
@@ -28,6 +27,11 @@ git clone https://github.com/keshavdubeysnu/SNUxplore.git
 This will clone the repo in that folder and you can now locally access the code
 To view the pages, just navigate to the "Home" folder and double click on "index.html". This should open the project in your browser.
 
+<div style="display: flex;gap: 10px;">
+  <img height="170px" src="images/ss.png"></img>
+  <img height="170px" src="images/dark-mode.png"></img>
+  <img height="170px" src="images/light-mode.png"><img>
+</div>
 ## Future Plans
 
 We intend to finish the data collection part at the earliest, would be more than happy if any of you wanted to contribute in this regard.
