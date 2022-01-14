@@ -35,7 +35,7 @@ body {
 }
 
 .bg {
-  background-image: url(../images/HomePage_Bg.png);
+  background-image: url(./images/HomePage_Bg.png);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
