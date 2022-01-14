@@ -13,22 +13,25 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 9px;
+  border-radius: 16px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ffffff; 
+  background: #cfcfcf;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #235751; 
+  background: #747474;
+  /* border-radius: 16px; */
+  position: relative;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(255, 255, 255); 
+  background: rgb(122, 122, 122);
 }
 
 .bg {
@@ -266,9 +269,9 @@ body {
 }
 
 .contributeWrapper__image {
-  margin-top: 17vh;
+  margin-top: 3vh;
   margin-left: 0px;
-  margin-right: 20vh;
+  margin-right: 10vh;
   will-change: transform;
   transition: transform 700ms;
 }
@@ -332,7 +335,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: visible;
-  overflow-y:visible;
+  overflow-y: visible;
 }
 
 .picture-keshav {
@@ -344,7 +347,7 @@ body {
   will-change: transform;
   transition: transform 650ms;
   overflow-x: visible;
-  overflow-y:visible;
+  overflow-y: visible;
 }
 
 .teamWrapper__cards__Prabhav {
@@ -357,7 +360,6 @@ body {
   height: 335px;
   text-align: center;
   overflow-x: visible;
-
 }
 
 .teamWrapper__cards__Prabhav a {
@@ -370,7 +372,6 @@ body {
   position: relative;
   top: -56px;
   overflow-x: visible;
-
 }
 
 .picture-prabhav {
