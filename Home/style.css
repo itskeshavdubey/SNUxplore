@@ -404,6 +404,22 @@ body {
   align-items: center;
 }
 
+.view{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color:#3e6e71;
+  color:#add5cc;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.view-1{
+  padding-right: 5px;
+}
+.view-3{
+  padding-left: 5px;
+}
+
 footer {
   background-color: #3e6e71;
   color: white;
