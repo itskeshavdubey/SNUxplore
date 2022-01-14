@@ -28,9 +28,9 @@ This will clone the repo in that folder and you can now locally access the code
 To view the pages, just navigate to the "Home" folder and double click on "index.html". This should open the project in your browser.
 
 <div style="display: flex;gap: 10px;">
-  <img height="170px" src="images/ss.png"></img>
-  <img height="170px" src="images/dark-mode.png"></img>
-  <img height="170px" src="images/light-mode.png"><img>
+  <img height="160px" src="/images/ss.png"></img>
+  <img height="160px" src="/images/dark-mode.png"></img>
+  <img height="160px" src="/images/light-mode.png"><img>
 </div>
 ## Future Plans
 
