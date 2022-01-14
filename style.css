@@ -261,23 +261,23 @@ body {
 }
 
 .contributeWrapper__desc {
-  color: rgb(59, 59, 59);
-  padding: 54px 20vh 0px 13vh;
-  font-size: 18px;
+  padding-left: 94px;
   font-weight: 500;
   letter-spacing: 0.6px;
+  font-size: 18px;
+  color: rgb(58, 58, 58);
+  padding-top: 20px;
 }
 
 .contributeWrapper__image {
-  margin-top: 22vh;
+  margin-top: 10vh;
   margin-left: 10vw;
   will-change: transform;
   transition: transform 700ms;
 }
 
-.contributeWrapper__desc a {
-  font-size: 16.7px;
-  color: rgb(77, 77, 77);
+.github-btn{
+  text-decoration: none;
 }
 
 .github {
@@ -661,13 +661,39 @@ footer {
     color: black;
     height: fit-content;
     margin-top: 20px;
-    padding-bottom: 0vh;
   }
   .contributeWrapper__image {
+    display: none;
     margin-right: 0vh;
     position: relative;
     top: -60px;
     padding: 20px;
+  }
+  .github-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .github {
+    margin: 20px 90px;
+    box-sizing: border-box;
+    background-color: #d8f2e8;
+    padding: 10px 70px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #24584f;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .git-logo{
+    padding: 0px 8px;
   }
   .contributeWrapper__heading {
     font-weight: 600;
