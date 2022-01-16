@@ -270,13 +270,13 @@ body {
 }
 
 .contributeWrapper__image {
-  margin-top: 10vh;
+  margin-top: 13vh;
   margin-left: 10vw;
   will-change: transform;
   transition: transform 700ms;
 }
 
-.github-btn{
+.github-btn {
   text-decoration: none;
 }
 
@@ -669,8 +669,8 @@ footer {
     top: -60px;
     padding: 20px;
   }
-  .github-btn{
-    display:flex;
+  .github-btn {
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -692,7 +692,7 @@ footer {
     align-items: center;
     justify-content: space-between;
   }
-  .git-logo{
+  .git-logo {
     padding: 0px 8px;
   }
   .contributeWrapper__heading {
