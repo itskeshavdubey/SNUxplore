@@ -1,6 +1,10 @@
 # SNUxplore.
 
 ![logo](/images/logo.png)
+
+<br />
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/54b2e6b0-246d-4449-ba7b-a88079d6821a/deploy-status)](https://app.netlify.com/sites/snuyellowpages/deploys)
 <hr />
 
 A website developed with HTML, CSS and JavaScript to help people explore and navigate through Shiv Nadar University's campus easily and more efficiently. We also offer a functionality to call/mail all the hostel wardens and all the official buildings on campus.
