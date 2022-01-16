@@ -5,14 +5,37 @@
   padding: 0px;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  overflow-x: initial;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  border-radius: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #cfcfcf;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #747474;
+  /* border-radius: 16px; */
+  position: relative;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(122, 122, 122);
 }
 
 .bg {
-  background-image: url(../images/HomePage_Bg.png);
+  background-image: url(./images/HomePage_Bg.png);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,6 +58,7 @@ body {
   letter-spacing: 0.6px;
   text-decoration: none;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .Navbar-Items a:hover {
@@ -215,9 +239,8 @@ body {
   background: #d8f2e8;
   padding: 20px;
   background: linear-gradient(345deg, #3e6e71 25%, #d8f2e8 25%);
-  height: max-content;
   display: flex;
-  padding-bottom: 35vh;
+  padding-bottom: 20vh;
 }
 
 .contributeWrapper__heading {
@@ -238,29 +261,52 @@ body {
 }
 
 .contributeWrapper__desc {
-  color: rgb(59, 59, 59);
-  padding: 54px 20vh 0px 13vh;
-  font-size: 16px;
+  padding-left: 94px;
   font-weight: 500;
+  letter-spacing: 0.6px;
+  font-size: 18px;
+  color: rgb(58, 58, 58);
+  padding-top: 20px;
 }
 
 .contributeWrapper__image {
-  margin-top: 17vh;
-  margin-left: 0px;
-  margin-right: 20vh;
+  margin-top: 10vh;
+  margin-left: 10vw;
   will-change: transform;
   transition: transform 700ms;
 }
 
-.contributeWrapper__desc a {
-  font-size: 16.7px;
-  color: rgb(77, 77, 77);
+.github-btn{
+  text-decoration: none;
+}
+
+.github {
+  margin: 50px 90px;
+  box-sizing: border-box;
+  background-color: #d8f2e8;
+  padding: 10px 14px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  text-decoration: none;
+  color: #24584f;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.github:hover {
+  background-color: #24584f;
+  color: #d8f2e8;
+  cursor: pointer;
 }
 
 .teamWrapper {
   box-sizing: border-box;
   background-color: #3e6e71;
   padding-bottom: 5vh;
+  overflow-x: visible;
 }
 
 .teamWrapper__heading u {
@@ -277,6 +323,7 @@ body {
   justify-content: center;
   text-align: center;
   margin-top: -120px;
+  overflow-x: visible;
 }
 
 .teamWrapper__heading span {
@@ -289,6 +336,7 @@ body {
   justify-content: center;
   justify-content: space-between;
   margin-right: 20%;
+  overflow-x: visible;
 }
 
 .teamWrapper__cards__Keshav {
@@ -300,12 +348,15 @@ body {
   color: rgb(61, 61, 61);
   height: 335px;
   text-align: center;
+  overflow-x: visible;
 }
 
 .teamWrapper__cards__Keshav a {
   color: rgb(71, 71, 71);
   display: flex;
   flex-direction: column;
+  overflow-x: visible;
+  overflow-y: visible;
 }
 
 .picture-keshav {
@@ -316,6 +367,8 @@ body {
   border-radius: 14px;
   will-change: transform;
   transition: transform 650ms;
+  overflow-x: visible;
+  overflow-y: visible;
 }
 
 .teamWrapper__cards__Prabhav {
@@ -327,6 +380,7 @@ body {
   color: rgb(61, 61, 61);
   height: 335px;
   text-align: center;
+  overflow-x: visible;
 }
 
 .teamWrapper__cards__Prabhav a {
@@ -338,6 +392,7 @@ body {
 .details {
   position: relative;
   top: -56px;
+  overflow-x: visible;
 }
 
 .picture-prabhav {
@@ -368,6 +423,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3e6e71;
+  color: #add5cc;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.view-1 {
+  padding-right: 5px;
+}
+.view-3 {
+  padding-left: 5px;
 }
 
 footer {
@@ -590,13 +661,39 @@ footer {
     color: black;
     height: fit-content;
     margin-top: 20px;
-    padding-bottom: 0vh;
   }
   .contributeWrapper__image {
+    display: none;
     margin-right: 0vh;
     position: relative;
     top: -60px;
     padding: 20px;
+  }
+  .github-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .github {
+    margin: 20px 90px;
+    box-sizing: border-box;
+    background-color: #d8f2e8;
+    padding: 10px 70px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #24584f;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .git-logo{
+    padding: 0px 8px;
   }
   .contributeWrapper__heading {
     font-weight: 600;

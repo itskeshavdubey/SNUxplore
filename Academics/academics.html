@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="../master.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" type="image/png" href="/SNUxplore/images/favicon.svg.svg">
     <title>Academics - SNUxplore</title>
   </head>
   <body>
     <div class="navbar">
-      <a href="../Home/index.html" class="home_logo">
+      <a href="../index.html" class="home_logo">
         <h3>SNU<span>xplore.</span></h3>
       </a>
       <img
         class="dark-mode-png"
-        src="/SNUxplore/images/moon.png"
+        src="../images/moon.png"
         width="24px"
         height="25px"
         id="icon"
@@ -57,7 +57,7 @@
       </div>
     </div>
     <div class="components" id="component">
-      <div class="singlecomponent" data-aos="slide-right">
+      <div class="singlecomponent">
         <div class="topicinfo">
           <p class="findable">A Block</p>
         </div>
@@ -69,7 +69,7 @@
           >
         </div>
       </div>
-      <div class="singlecomponent" data-aos="slide-right">
+      <div class="singlecomponent">
         <div class="topicinfo">
           <p class="findable">B Block</p>
         </div>
@@ -81,7 +81,7 @@
           >
         </div>
       </div>
-      <div class="singlecomponent" data-aos="slide-right">
+      <div class="singlecomponent">
         <div class="topicinfo">
           <p class="findable">C Block</p>
         </div>
@@ -93,7 +93,7 @@
           >
         </div>
       </div>
-      <div class="singlecomponent" data-aos="slide-right">
+      <div class="singlecomponent">
         <div class="topicinfo">
           <p class="findable">D Block</p>
         </div>
@@ -105,7 +105,7 @@
           >
         </div>
       </div>
-      <div class="singlecomponent" data-aos="slide-right">
+      <div class="singlecomponent">
         <div class="topicinfo">
           <p class="findable">Management Block</p>
         </div>
@@ -117,7 +117,7 @@
           >
         </div>
       </div>
-      <div class="singlecomponent" data-aos="slide-right">
+      <div class="singlecomponent">
         <div class="topicinfo">
           <p class="findable">Research Annexe</p>
         </div>
@@ -129,54 +129,22 @@
           >
         </div>
       </div>
+      <div class="singlecomponent">
+        <div class="topicinfo">
+          <p class="findable">Library</p>
+        </div>
+        <div class="btns">
+          <a
+            href="https://www.google.co.in/maps/place/Shiv+Nadar+University+Library/@28.5266032,77.5741098,17z/data=!4m12!1m6!3m5!1s0x390ceb4eaaaaaaab:0x321412756718874c!2sShiv+Nadar+University!8m2!3d28.5267298!4d77.575363!3m4!1s0x390c94da1feea4cf:0x4788fa1f42f859a1!8m2!3d28.5248591!4d77.5740441"
+            class="btn-1" target="_blank"
+            >Location</a
+          >
+        </div>
+      </div>
     </div>
 
-    <script>
-
-    const inputHandler = (e) => {
-      const findables = document.getElementsByClassName("findable");
-      for (let i = 0; i < findables.length; i++) {
-        if (findables[i].innerText.toLowerCase().includes(e.target.value.toLowerCase())) {
-          findables[i].parentElement.parentElement.style.display = "flex";
-        } else {
-          findables[i].parentElement.parentElement.style.display = "none";
-        }
-      }
-    };
-    const source = document.getElementById("source");
-
-    source.addEventListener("input", inputHandler);
-      const searchPlaces = () => {
-        let filter = document.getElementById("myInput").value.toUpperCase();
-        let components = document.getElementById("component");
-        let singlecomponent = components.getElementByTagName("singlecomponent");
-
-        for (var i = 0; i < singlecomponent.length; i++) {
-          let topicinfo =
-            singlecomponent[i].getElementByTagName("topicinfo")[0];
-          let textValue = topicinfo.textContent || topicinfo.innerHTML;
-          if (textValue.toUpperCase().indexOf("filter") > -1) {
-            singlecomponent[i].style.display = "";
-          } else {
-            singlecomponent[i].style.display = "none";
-          }
-        }
-      };
-
-      var icon = document.getElementById("icon");
-      icon.onclick = function () {
-        document.body.classList.toggle("dark-theme");
-        if (document.body.classList.contains("dark-theme")) {
-          icon.src = "/SNUxplore/images/sun.png";
-        } else {
-          icon.src = "/SNUxplore/images/moon.png";
-        }
-      };
+    <script src="./academics.js">
     </script>
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
   </body>
   <footer class="footer_logo">
     <img src="../images/Shiv-Nadar-University-Logo-WEB.png" />

@@ -148,6 +148,12 @@ h3 span {
   padding-left: 35px;
   padding-top: 21px;
   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adidas-logo{
+  padding-left: 10px;
 }
 .btns {
   padding-right: 32px;

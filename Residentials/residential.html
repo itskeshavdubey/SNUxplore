@@ -8,14 +8,15 @@
   <link rel="stylesheet" href="../master.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" type="image/png" href="/SNUxplore/images/favicon.svg.svg">
   <title>Residentials - SNUxplore</title>
 </head>
 <body>
     <div class=navbar>
-    <a href="../Home/index.html" class="home_logo">
+    <a href="../index.html" class="home_logo">
         <h3>SNU<span>xplore.</span></h3>
     </a>
-    <img class="dark-mode-png" src="/SNUxplore/images/moon.png" width="24px" height="25px" id="icon" alt="">
+    <img class="dark-mode-png" src="../images/moon.png" width="24px" height="25px" id="icon" alt="">
 </div>
     <br>
     <hr />
@@ -147,7 +148,7 @@
             </div>
             <div class="singlecomponent">
                 <div class="topicinfo">
-                    <p class="findable">Tower 3</>
+                    <p class="findable">Tower 3</p>
                 </div>
                 <div class="btns">
                     <a href="#" class="btn-1">Call Warden</a>
@@ -228,48 +229,7 @@
         </div>
     </div>
 
-    <script>
-        const inputHandler = (e) => {
-          const findables = document.getElementsByClassName("findable");
-          for (let i = 0; i < findables.length; i++) {
-            if (findables[i].innerText.toLowerCase().includes(e.target.value.toLowerCase())) {
-              findables[i].parentElement.parentElement.style.display = "flex";
-            } else {
-              findables[i].parentElement.parentElement.style.display = "none";
-            }
-          }
-        };
-        const source = document.getElementById("source");
-    
-        source.addEventListener("input", inputHandler);
-    
-        const searchPlaces = () => {
-            let filter = document.getElementById('myInput').value.toUpperCase();
-            let components = document.getElementById('component');
-            let singlecomponent = components.getElementByTagName('singlecomponent');
-    
-            for (var i=0; i<singlecomponent.length; i++){
-                let topicinfo = singlecomponent[i].getElementByTagName('topicinfo')[0];
-                let textValue = topicinfo.textContent || topicinfo.innerHTML;
-                if(textValue.toUpperCase().indexOf('filter') > -1){
-                 singlecomponent[i].style.display = '';
-                }else{
-                    singlecomponent[i].style.display = 'none';
-                }
-            }
-        }
-    
-        var icon = document.getElementById("icon");
-        icon.onclick = function() {
-            document.body.classList.toggle("dark-theme");
-            if(document.body.classList.contains("dark-theme")){
-                icon.src = "../images/sun.png";
-            }
-            else{
-                icon.src = "../images/moon.png";
-            }
-            }
-
+    <script src="./residential.js">
     </script>
 </body>
 <footer class="footer_logo"><img src="../images/Shiv-Nadar-University-Logo-WEB.png"></footer>

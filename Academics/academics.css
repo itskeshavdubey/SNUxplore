@@ -136,7 +136,7 @@ h3 span {
   background-color: var(--single-com);
   margin-top: 10px;
   margin-left: 70px;
-  width: 1283px;
+  width: 84vw;
   height: 72px;
   display: flex;
   justify-content: space-between;
@@ -184,7 +184,7 @@ h3 span {
   background-size: contain;
   color: var(--btn-text-col);
   box-sizing: border-box;
-  width: 1283px;
+  width: 84vw;
   padding: 18px;
   border-radius: 10px;
   border: 2.4px solid var(--btn-outline);
