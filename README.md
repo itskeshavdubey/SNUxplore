@@ -15,6 +15,14 @@ A website developed with HTML, CSS and JavaScript to help people explore and nav
 - Local guardians or guests who come to the campus for visits or official work can navigate to the building of their choice, hassle free
 - ✨And last but not the least, all the students and faculty who may require an official building's/hostel wareden's contact details, or at times even a navigation route when lost or in an emergency
 
+## 🎥 A Quick Video Demonstration
+
+
+
+https://user-images.githubusercontent.com/18113725/149916773-fe9664c0-0f2a-4ff6-8b6e-714b3d4977df.mp4
+
+
+
 ## 💻 How to Run This Project Locally?
 
 This procedure requires [Git Bash](https://git-scm.com/)
