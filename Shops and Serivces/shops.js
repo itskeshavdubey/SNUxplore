@@ -36,8 +36,8 @@ var icon = document.getElementById("icon");
 icon.onclick = function () {
   document.body.classList.toggle("dark-theme");
   if (document.body.classList.contains("dark-theme")) {
-    icon.src = "/SNUxplore/images/sun.png";
+    icon.src = "../images/sun.png";
   } else {
-    icon.src = "/SNUxplore/images/moon.png";
+    icon.src = "../images/moon.png";
   }
 };
