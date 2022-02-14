@@ -608,15 +608,18 @@ footer {
   }
 
   .btn-1 {
+    width:250px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 10px;
   }
   .btn-2 {
+    width:250px;
     margin-right: 0px;
     margin-bottom: 10px;
   }
   .btn-3 {
+    width:250px;
     margin-left: 0px;
     margin-bottom: 10px;
   }
@@ -643,15 +646,18 @@ footer {
     align-items: center;
   }
   .btn-4 {
+    width:250px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 10px;
   }
   .btn-5 {
+    width:250px;
     margin-right: 0px;
     margin-bottom: 10px;
   }
   .btn-6 {
+    width:250px;
     margin-left: 0px;
     margin-bottom: 40px;
   }
