@@ -34,6 +34,35 @@ body {
   background: rgb(122, 122, 122);
 }
 
+.ticker {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 22px;
+  margin: 0 auto;
+  padding-top: 0.9%;
+}
+.news {
+  width: 100%;
+  display: flex;
+  background: whitesmoke;
+}
+.title h5 {
+  font-size: 18px;
+  margin: 8% 0;
+}
+.news marquee {
+  font-size: 16px;
+  margin: -2px 0px;
+  font-weight: 500;
+}
+
+.news marquee p span {
+  font-weight: 600;
+  color: #24584f;
+  padding: 10px 10px;
+}
+
 .bg {
   background-image: url(./images/HomePage_Bg.png);
   height: 100vh;
@@ -72,6 +101,7 @@ body {
 .Main h1 {
   margin-left: 100px;
   margin-top: 130px;
+  margin-bottom: 30px;
   font-size: 60px;
   color: white;
   will-change: transform;
@@ -103,6 +133,7 @@ body {
   margin-top: 10px;
   font-size: 18px;
   font-weight: 400;
+  padding-right: 93vh;
   color: rgb(216, 216, 216);
 }
 
@@ -590,13 +621,14 @@ footer {
     display: flex;
     justify-content: center;
     margin-left: 0px;
+    margin-bottom: -30px;
   }
   .Main h1 {
     display: flex;
     justify-content: center;
     margin-top: 40px;
     margin-left: 0px;
-    font-size: 40px;
+    font-size: 50px;
   }
   .Main p {
     display: flex;
