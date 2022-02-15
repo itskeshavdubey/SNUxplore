@@ -60,7 +60,7 @@ body {
 .news marquee p span{
   font-weight: 600;
   color:#24584f;
-  padding: 10px 0px;
+  padding: 10px 10px;
 }
 
 .bg {
@@ -132,6 +132,7 @@ body {
   margin-top: 10px;
   font-size: 18px;
   font-weight: 400;
+  padding-right: 93vh;
   color: rgb(216, 216, 216);
 }
 
@@ -625,7 +626,7 @@ footer {
     justify-content: center;
     margin-top: 40px;
     margin-left: 0px;
-    font-size: 40px;
+    font-size: 50px;
   }
   .Main p {
     display: flex;
