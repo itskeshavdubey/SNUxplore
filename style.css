@@ -101,6 +101,7 @@ body {
 .Main h1 {
   margin-left: 100px;
   margin-top: 130px;
+  margin-bottom: 30px;
   font-size: 60px;
   color: white;
   will-change: transform;
@@ -620,6 +621,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-left: 0px;
+    margin-bottom: -30px;
   }
   .Main h1 {
     display: flex;
