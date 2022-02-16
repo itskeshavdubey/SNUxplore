@@ -67,7 +67,7 @@ hr {
 .news {
   width: 100%;
   display: flex;
-  background: whitesmoke;
+  background: var(--background-color);
   padding: 1vh;
 }
 
@@ -80,11 +80,12 @@ hr {
   font-size: 16px;
   margin: -2px 0px;
   font-weight: 500;
+  color: var(--btn-text-col)
 }
 
 .news marquee p span {
   font-weight: 600;
-  color: #24584f;
+  color: var(--hover);
   padding: 10px 0px;
 }
 
