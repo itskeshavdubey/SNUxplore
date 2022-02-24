@@ -114,7 +114,7 @@ h3 span {
   display: flex;
 }
 .icon {
-  padding-top: 3px;
+  padding-top: 4px;
   transition: all 0.3s;
 }
 .icon:hover {
